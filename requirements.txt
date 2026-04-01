@@ -1,0 +1,5 @@
+# Python dependencies for Awesome-World-Action-Model tools
+feedparser>=6.0.10
+requests>=2.31.0
+PyYAML>=6.0.1
+openai>=1.12.0
