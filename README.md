@@ -21,6 +21,7 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 ## Table of Contents
 
 - [Key Definitions](#key-definitions)
+- [Comparison Methods & Baselines](#comparison-methods--baselines)
 - [Surveys](#surveys)
 - [VLA Models](#vla-models)
   - [General VLA](#general-vla)
@@ -41,6 +42,28 @@ This repository aims to provide a comprehensive, curated, and continuously updat
   - [Benchmarks](#benchmarks)
   - [Simulation Platforms](#simulation-platforms)
   - [Tools & Frameworks](#tools--frameworks)
+
+---
+
+## Comparison Methods & Baselines
+
+<details>
+<summary><b>📊 Click to expand baseline methods and complete paper list</b></summary>
+
+### Quick Reference (from experimental tables)
+
+| Category | Key Baselines |
+|-----------|----------------|
+| **VLA** | RT-1, RT-2, OpenVLA, Octo, π0, X-VLA, UniVLA, SmolVLA, VLANeXt |
+| **Policy** | Diffusion Policy, ACT, BeT, PerAct, MVP, R3M, CQL, IQL |
+| **World Model** | DreamerV1/V2/V3, I-JEPA, V-JEPA, DreamZero |
+
+### Documentation
+
+- 📋 [Complete Paper List](docs/all-papers.md) (129 papers, sorted newest first)
+- 📊 [Baseline Methods](docs/baselines.md) (detailed comparison methods from experimental tables)
+
+</details>
 
 ---
 
@@ -109,24 +132,30 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
-| 1 | **RT-2**: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control | Brohan et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) [Project](https://robotics-transformer2.github.io) |
-| 2 | **OpenVLA**: An Open-Source Vision-Language-Action Model | Kim et al. | 2024 | [arXiv](https://arxiv.org/abs/2406.09246) [Project](https://openvla.github.io) |
-| 3 | **RT-1**: Robotics Transformer for Real-World Control at Scale | Brohan et al. | 2022 | [arXiv](https://arxiv.org/abs/2212.06817) [Project](https://robotics-transformer1.github.io) |
-| 4 | **Octo**: An Open-Source Generalist Robot Policy | Ghosh et al. | 2024 | [arXiv](https://arxiv.org/abs/2405.12213) [Project](https://octo-models.github.io) |
-| 5 | **Gemini Robotics**: Bringing AI into the Physical World | DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2503.20020) [Project](https://deepmind.google/models/gemini-robotics/) |
-| 6 | **π0**: A Multimodal Autoregressive Action Model | Black et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.24164) [Project](https://www.pi.website/blog/p0) |
-| 7 | **π\*0.6**: A VLA That Learns From Experience | Black et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14759) [Project](https://www.pi.website/blog/pistar06) |
-| 8 | **X-VLA**: Soft-Prompted Transformer as Scalable Cross-Embodiment VLA | Zheng et al. | 2025 | [arXiv](https://arxiv.org/abs/2510.10274) [Project](https://thu-air-dream.github.io/X-VLA/) |
-| 9 | **UniVLA**: Unified Vision-Language-Action Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) [Project](https://robertwyq.github.io/univla.github.io/) |
-| 10 | **SmolVLA**: A VLA for Affordable and Efficient Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) [Project](https://github.com/huggingface/lerobot) |
-| 11 | **NORA**: A Small Open-Sourced Generalist VLA for Embodied Tasks | Nandan et al. | 2025 | [arXiv](https://arxiv.org/abs/2504.19854) [Project](https://declare-lab.github.io/nora) |
-| 12 | **VLANeXt**: Recipes for Building Strong VLA Models | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.18532) [Project](https://dravenalg.github.io/VLANeXt/) |
-| 13 | **HoloBrain-0**: Technical Report | Horizon Robotics | 2026 | [arXiv](https://arxiv.org/abs/2602.12062) [Project](https://horizonrobotics.github.io/robot_lab/holobrain/) |
-| 14 | **ABot-M0**: VLA Foundation Model with Action Manifold Learning | AMAP CVLab | 2026 | [arXiv](https://arxiv.org/abs/2602.11236) [Project](https://amap-cvlab.github.io/ABot-Manipulation/) |
-| 15 | **SimVLA**: A Simple VLA Baseline for Robotic Manipulation | FrontierRoBo | 2026 | [arXiv](https://arxiv.org/abs/2602.18224) [Project](https://frontierrobo.github.io/SimVLA/) |
-| 16 | **Lingbot-VLA**: A Pragmatic VLA Foundation Model | Robbyant | 2026 | [arXiv](https://arxiv.org/abs/2601.18692) [Project](https://technology.robbyant.com/lingbot-vla/) |
-| 17 | **VLA-0**: Building State-of-the-Art VLAs with Zero Modification | VLA0 | 2025 | [arXiv](https://arxiv.org/abs/2510.13054) [Project](https://vla0.github.io) |
-| 18 | **CronusVLA**: Efficient and Robust Manipulation via Multi-Frame VLA | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19816) [Project](https://lihaohn.github.io/CronusVLA.github.io/) |
+| 1 | **DIAL**: Decoupling Intent and Action via Latent World Modeling for VLA | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.29844) |
+| 2 | **VLANeXt**: Recipes for Building Strong VLA Models | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.18532) [Project](https://dravenalg.github.io/VLANeXt/) |
+| 3 | **HoloBrain-0**: Technical Report | Horizon Robotics | 2026 | [arXiv](https://arxiv.org/abs/2602.12062) [Project](https://horizonrobotics.github.io/robot_lab/holobrain/) |
+| 4 | **FocusVLA**: Focused Visual Utilization for VLA Models | Zhang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28740) |
+| 5 | **StreamingVLA**: Streaming VLA with Action Flow Matching | Shi et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28565) |
+| 6 | **ABot-M0**: VLA with Action Manifold Learning | AMAP CVLab | 2026 | [arXiv](https://arxiv.org/abs/2602.11236) [Project](https://amap-cvlab.github.io/ABot-Manipulation/) |
+| 7 | **SimVLA**: A Simple VLA Baseline for Robotic Manipulation | FrontierRoBo | 2026 | [arXiv](https://arxiv.org/abs/2602.18224) [Project](https://frontierrobo.github.io/SimVLA/) |
+| 8 | **Lingbot-VLA**: A Pragmatic VLA Foundation Model | Robbyant | 2026 | [arXiv](https://arxiv.org/abs/2601.18692) [Project](https://technology.robbyant.com/lingbot-vla/) |
+| 9 | **Gemini Robotics**: Bringing AI into the Physical World | DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2503.20020) [Project](https://deepmind.google/models/gemini-robotics/) |
+| 10 | **π\*0.6**: A VLA That Learns From Experience | Black et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14759) [Project](https://www.pi.website/blog/pistar06) |
+| 11 | **X-VLA**: Soft-Prompted Transformer as Scalable Cross-Embodiment VLA | Zheng et al. | 2025 | [arXiv](https://arxiv.org/abs/2510.10274) [Project](https://thu-air-dream.github.io/X-VLA/) |
+| 12 | **UniVLA**: Unified Vision-Language-Action Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) [Project](https://robertwyq.github.io/univla.github.io/) |
+| 13 | **SmolVLA**: A VLA for Affordable and Efficient Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) [Project](https://github.com/huggingface/lerobot) |
+| 14 | **NORA**: A Small Open-Sourced Generalist VLA | Nandan et al. | 2025 | [arXiv](https://arxiv.org/abs/2504.19854) [Project](https://declare-lab.github.io/nora) |
+| 15 | **VLA-0**: Building State-of-the-Art VLAs with Zero Modification | VLA0 | 2025 | [arXiv](https://arxiv.org/abs/2510.13054) [Project](https://vla0.github.io) |
+| 16 | **CronusVLA**: Efficient and Robust Manipulation via Multi-Frame VLA | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19816) [Project](https://lihaohn.github.io/CronusVLA.github.io/) |
+| 17 | **OpenVLA-OFT**: Fine-Tuning VLAs: Optimizing Speed and Success | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2502.19645) [Project](https://openvla-oft.github.io) |
+| 18 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
+| 19 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
+| 20 | **OpenVLA**: An Open-Source Vision-Language-Action Model | Kim et al. | 2024 | [arXiv](https://arxiv.org/abs/2406.09246) [Project](https://openvla.github.io) |
+| 21 | **Octo**: An Open-Source Generalist Robot Policy | Ghosh et al. | 2024 | [arXiv](https://arxiv.org/abs/2405.12213) [Project](https://octo-models.github.io) |
+| 22 | **π0**: A Multimodal Autoregressive Action Model | Black et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.24164) [Project](https://www.pi.website/blog/p0) |
+| 23 | **RT-2**: Vision-Language-Action Models | Brohan et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) [Project](https://robotics-transformer2.github.io) |
+| 24 | **RT-1**: Robotics Transformer for Real-World Control at Scale | Brohan et al. | 2022 | [arXiv](https://arxiv.org/abs/2212.06817) [Project](https://robotics-transformer1.github.io) |
 
 ### VLA with Reasoning
 
