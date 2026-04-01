@@ -138,9 +138,8 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 | 4 | **AnyCamVLA**: Zero-Shot Camera Adaptation for Viewpoint Robust VLA | Heo et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.05868) |
 | 5 | **CLARE**: Continuous Learning for VLA via Adapter Routing | Römer et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.09512) |
 | 6 | **DIAL**: Decoupling Intent and Action via Latent World Modeling for VLA | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.29844) |
-| 7 | **DiT4DiT**: Jointly Modeling Video Dynamics and Actions | Ma et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.10448) |
-| 8 | **EAPruning**: Adaptive Pruning with Interleaved Inference for VLA | Huang et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.00780) |
-| 9 | **ETA-VLA**: Efficient Token Adaptation | Wang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.25766) |
+| 7 | **EAPruning**: Adaptive Pruning with Interleaved Inference for VLA | Huang et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.00780) |
+| 8 | **ETA-VLA**: Efficient Token Adaptation | Wang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.25766) |
 | 10 | **FAVLA**: Force-Adaptive Fast-Slow VLA | Li et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.23648) |
 | 11 | **HarvestFlex**: Harvesting via VLA Policy Adaptation | Zhao et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.05982) |
 | 12 | **On-the-Fly VLA**: VLA Adaptation via Test-Time RL | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.06748) |
@@ -189,19 +188,17 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
 | 1 | **ACoT-VLA**: Action Chain-of-Thought for VLA Models | AgibotTech | 2026 | [arXiv](https://arxiv.org/abs/2601.11404) [Project](https://github.com/AgibotTech/ACoT-VLA) |
-| 2 | **CoT-VLA**: Chain-of-Thought for Vision-Language-Action | Chen et al. | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
-| 3 | **ThinkAct**: Think Before You Act | Chen et al. | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
-| 4 | **Fast-ThinkAct**: Efficient Reasoning for VLA | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2501.xxxxx) |
-| 5 | **HIL-SERL**: Hierarchical Imitation Learning with Self-Evolution | Bousmalis et al. | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
-| 6 | **UniVLA**: VLA with World Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) |
+| 2 | **CoT-VLA**: Visual Chain-of-Thought Reasoning for VLA | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2503.22020) |
+| 3 | **ThinkAct**: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2507.16815) |
+| 4 | **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.09708) |
+| 5 | **UniVLA**: VLA with World Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) |
 
 ### VLA with 3D/4D Modeling
 
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
-| 1 | **3D-VLA**: 3D-Aware Vision-Language-Action | Chen et al. | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
-| 2 | **Point-BERT-VLA**: Point Cloud VLA | Liu et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.xxxxx) |
-| 3 | **VoxPoser**: 3D-Aware VLA | Huang et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.05973) [Project](https://voxposer.github.io) |
+| 1 | **3D-VLA**: A 3D Vision-Language-Action Generative World Model | Chen et al. | 2024 | [arXiv](https://arxiv.org/abs/2403.09631) |
+| 2 | **VoxPoser**: 3D-Aware VLA | Huang et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.05973) [Project](https://voxposer.github.io) |
 
 ### Efficient VLA
 
@@ -209,17 +206,16 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 |---|-------|---------|------|-------|
 | 1 | **SmolVLA**: A Vision-Language-Action Model for Affordable Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) |
 | 2 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
-| 3 | **Helix**: Fast-in-Slow Dual-System VLA | Google DeepMind | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
-| 4 | **RTC**: Real-Time Controller for VLA | Google DeepMind | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
+| 3 | **OpenHelix**: A Short Survey and Open-Source Dual-System VLA | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2505.03912) |
+| 4 | **RTC**: Running VLAs at Real-time Speed | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2510.26742) |
 | 5 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
 
 ### VLA with RL Fine-tuning
 
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
-| 1 | **SimpleVLA-RL**: RL Fine-tuning for VLA | Pi Team | 2025 | [arXiv](https://arxiv.org/abs/2501.xxxxx) |
+| 1 | **SimpleVLA-RL**: Scaling VLA Training via Reinforcement Learning | Pi Team | 2025 | [arXiv](https://arxiv.org/abs/2509.09674) |
 | 2 | **OpenVLA-OFT**: Fine-Tuning VLAs: Optimizing Speed and Success | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2502.19645) [Project](https://openvla-oft.github.io) |
-| 3 | **HIL-SERL**: Hierarchical Imitation Learning with Self-Evolution | Bousmalis et al. | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
 
 ---
 
@@ -230,15 +226,15 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
 | 1 | **DreamZero**: World Action Models are Zero-shot Policies | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.15922) [Project](https://dreamzero0.github.io) |
-| 2 | **Cosmos Policy**: World Models for Robotics | NVIDIA | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) [Project](https://developer.nvidia.com/cosmos) |
-| 3 | **Video Diffusion Policy**: Action Generation via Video Diffusion | Sun et al. | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
+| 2 | **DiT4DiT**: Jointly Modeling Video Dynamics and Actions | Ma et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.10448) |
+| 3 | **Cosmos Policy**: Fine-Tuning Video Models for Visuomotor Control and Planning | NVIDIA | 2026 | [arXiv](https://arxiv.org/abs/2601.16163) [Project](https://developer.nvidia.com/cosmos) |
+| 4 | **Video2Act**: A Dual-System Video Diffusion Policy | Sun et al. | 2025 | [arXiv](https://arxiv.org/abs/2512.03044) |
 
 ### WAM from VLMs
 
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
-| 1 | **VLM as World Model**: Using VLMs for Action Prediction | Lee et al. | 2024 | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
-| 2 | **World Action Model from VLM**: VLM-Driven Policy Generation | Zhang et al. | 2025 | [arXiv](https://arxiv.org/abs/2501.xxxxx) |
+| 1 | **Goal-VLA**: Image-Generative VLMs as Object-Centric World Models Empower VLA | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.23919) |
 
 ### WAM from Scratch
 
@@ -296,7 +292,6 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 | **AgiBot World** | Large-scale Robot Dataset | 1M+ episodes | [Project](https://www.agibot-world.com) |
 | **UMI** | Unified Manipulation Interface | 15k episodes | [Project](https://umisystem.github.io) |
 | **DROID** | Dataset for Robot Imitation | 80k episodes | [Project](https://droid-dataset.github.io) |
-| **VITRA** | Video-Text-Robot Action | N/A | [arXiv](https://arxiv.org/abs/2412.xxxxx) |
 
 ### Benchmarks
 
