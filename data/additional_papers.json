@@ -1,0 +1,1331 @@
+[
+  {
+    "id": "2603.28565v1",
+    "title": "StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation",
+    "authors": [
+      "Yiran Shi",
+      "Dongqi Guo",
+      "Tianchen Zhao",
+      "Feng Gao",
+      "Liangzhi Shi",
+      "Chao Yu",
+      "ZhiJian Mo",
+      "Qihua Xiao",
+      "XiaoShuai Peng",
+      "Qingmin Liao",
+      "Yu Wang"
+    ],
+    "summary": "Vision-language-action (VLA) models have demonstrated exceptional performance in natural language-driven perception and control. However, the high computational cost of VLA models poses significant efficiency challenges, particularly for resource-constrained edge platforms in real-world deployments. However, since different stages of VLA (observation, action generation and execution) must proceed sequentially, and wait for the completion of the preceding stage, the system suffers from frequent h",
+    "published": "2026-03-30",
+    "published_iso": "2026-03-30T15:23:27+00:00",
+    "url": "http://arxiv.org/abs/2603.28565v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.28565v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.25766v1",
+    "title": "ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models",
+    "authors": [
+      "Yiru Wang",
+      "Anqing Jiang",
+      "Shuo Wang",
+      "Yuwen Heng",
+      "Zichong Gu",
+      "Hao Sun"
+    ],
+    "summary": "The integration of Vision-Language-Action (VLA) models into autonomous driving systems offers a unified framework for interpreting complex scenes and executing control commands. However, the necessity to incorporate historical multi-view frames for accurate temporal reasoning imposes a severe computational burden, primarily driven by the quadratic complexity of self-attention mechanisms in Large Language Models (LLMs). To alleviate this bottleneck, we propose ETA-VLA, an Efficient Token Adaptati",
+    "published": "2026-03-26",
+    "published_iso": "2026-03-26T06:53:42+00:00",
+    "url": "http://arxiv.org/abs/2603.25766v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.25766v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.24060v2",
+    "title": "SOMA: Strategic Orchestration and Memory-Augmented System for Vision-Language-Action Model Robustness via In-Context Adaptation",
+    "authors": [
+      "Zhuoran Li",
+      "Zhiyang Li",
+      "Kaijun Zhou",
+      "Jinyu Gu"
+    ],
+    "summary": "Despite the promise of Vision-Language-Action (VLA) models as generalist robotic controllers, their robustness against perceptual noise and environmental variations in out-of-distribution (OOD) tasks remains fundamentally limited by the absence of long-term memory, causal failure attribution, and dynamic intervention capability. To address this, we propose SOMA, a Strategic Orchestration and Memory-Augmented System that upgrades frozen VLA policies for robust in-context adaptation without parame",
+    "published": "2026-03-25",
+    "published_iso": "2026-03-25T08:07:57+00:00",
+    "url": "http://arxiv.org/abs/2603.24060v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.24060v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.22126v2",
+    "title": "ROBOGATE: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling",
+    "authors": [
+      "Azuki Kim"
+    ],
+    "summary": "Deploying learned robot manipulation policies in industrial settings requires rigorous pre-deployment validation, yet exhaustive testing across high-dimensional parameter spaces is intractable. We present ROBOGATE, a deployment risk management framework that combines physics-based simulation with a two-stage adaptive sampling strategy to efficiently discover failure boundaries in the operational parameter space. Stage 1 employs Latin Hypercube Sampling (LHS) across an 8-dimensional parameter spa",
+    "published": "2026-03-23",
+    "published_iso": "2026-03-23T15:52:54+00:00",
+    "url": "http://arxiv.org/abs/2603.22126v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.22126v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.17850v1",
+    "title": "ProbeFlow: Training-Free Adaptive Flow Matching for Vision-Language-Action Models",
+    "authors": [
+      "Zhou Fang",
+      "Jiaqi Wang",
+      "Yi Zhou",
+      "Qiongfeng Shi"
+    ],
+    "summary": "Recent Vision-Language-Action (VLA) models equipped with Flow Matching (FM) action heads achieve state-of-the-art performance in complex robot manipulation. However, the multi-step iterative ODE solving required by FM introduces inference latency that precludes responsive physical control. While current acceleration efforts optimize the Vision-Language Model (VLM) backbone, the action head bottleneck remains overlooked. To address this, we propose ProbeFlow, a training-free adaptive inference fr",
+    "published": "2026-03-18",
+    "published_iso": "2026-03-18T15:38:29+00:00",
+    "url": "http://arxiv.org/abs/2603.17850v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.17850v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.17834v1",
+    "title": "Generative Control as Optimization: Time Unconditional Flow Matching for Adaptive and Robust Robotic Control",
+    "authors": [
+      "Zunzhe Zhang",
+      "Runhan Huang",
+      "Yicheng Liu",
+      "Shaoting Zhu",
+      "Linzhan Mou",
+      "Hang Zhao"
+    ],
+    "summary": "Diffusion models and flow matching have become a cornerstone of robotic imitation learning, yet they suffer from a structural inefficiency where inference is often bound to a fixed integration schedule that is agnostic to state complexity. This paradigm forces the policy to expend the same computational budget on trivial motions as it does on complex tasks. We introduce Generative Control as Optimization (GeCO), a time-unconditional framework that transforms action synthesis from trajectory inte",
+    "published": "2026-03-18",
+    "published_iso": "2026-03-18T15:27:17+00:00",
+    "url": "http://arxiv.org/abs/2603.17834v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.17834v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.15449v1",
+    "title": "The Steep-spectrum Radio-loud AGN Luminosity Function and Its Implications for Black Hole Growth and Star Formation",
+    "authors": [
+      "Wenjie Wang",
+      "Zunli Yuan",
+      "B. Šlaus",
+      "Hongwei Yu",
+      "Yu Luo"
+    ],
+    "summary": "We study the cosmic evolution of radio-loud active galactic nuclei (AGNs) using a beaming-minimized sample of 4{,}555 steep-spectrum sources over $0<z\\lesssim4$, compiled from the XXL survey, VLA-COSMOS, and other wide-field data sets. We model the rest-frame 1.4 GHz radio luminosity function (RLF) with a luminosity-and-density evolution (LADE; DE+LE) framework coupled to a flexible local LF family. Among the tested parameterizations, Model~C is statistically preferred and provides a globally co",
+    "published": "2026-03-16",
+    "published_iso": "2026-03-16T15:48:27+00:00",
+    "url": "http://arxiv.org/abs/2603.15449v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.15449v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.10448v2",
+    "title": "DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control",
+    "authors": [
+      "Teli Ma",
+      "Jia Zheng",
+      "Zifan Wang",
+      "Chunli Jiang",
+      "Andy Cui",
+      "Junwei Liang",
+      "Shuo Yang"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for robot learning, but their representations are still largely inherited from static image-text pretraining, leaving physical dynamics to be learned from comparatively limited action data. Generative video models, by contrast, encode rich spatiotemporal structure and implicit physics, making them a compelling foundation for robotic manipulation. But their potentials are not fully explored in the literature. To bridge the g",
+    "published": "2026-03-11",
+    "published_iso": "2026-03-11T06:03:53+00:00",
+    "url": "http://arxiv.org/abs/2603.10448v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.10448v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.08862v1",
+    "title": "APPLV: Adaptive Planner Parameter Learning from Vision-Language-Action Model",
+    "authors": [
+      "Yuanjie Lu",
+      "Beichen Wang",
+      "Zhengqi Wu",
+      "Yang Li",
+      "Xiaomin Lin",
+      "Chengzhi Mao",
+      "Xuesu Xiao"
+    ],
+    "summary": "Autonomous navigation in highly constrained environments remains challenging for mobile robots. Classical navigation approaches offer safety assurances but require environment-specific parameter tuning; end-to-end learning bypasses parameter tuning but struggles with precise control in constrained spaces. To this end, recent robot learning approaches automate parameter tuning while retaining classical systems' safety, yet still face challenges in generalizing to unseen environments. Recently, Vi",
+    "published": "2026-03-09",
+    "published_iso": "2026-03-09T19:23:09+00:00",
+    "url": "http://arxiv.org/abs/2603.08862v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.08862v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.08113v1",
+    "title": "SAMoE-VLA: A Scene Adaptive Mixture-of-Experts Vision-Language-Action Model for Autonomous Driving",
+    "authors": [
+      "Zihan You",
+      "Hongwei Liu",
+      "Chenxu Dang",
+      "Zhe Wang",
+      "Sining Ang",
+      "Aoqi Wang",
+      "Yan Wang"
+    ],
+    "summary": "Recent advances in Vision-Language-Action (VLA) models have shown promising capabilities in autonomous driving by leveraging the understanding and reasoning strengths of Large Language Models(LLMs).However, our empirical analysis reveals that directly applying existing token-level MoE mechanisms--which are inherited from LLM architectures--to VLA models results in unstable performance and safety degradation in autonomous driving, highlighting a misalignment between token-based expert specializat",
+    "published": "2026-03-09",
+    "published_iso": "2026-03-09T08:54:03+00:00",
+    "url": "http://arxiv.org/abs/2603.08113v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.08113v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.07404v1",
+    "title": "Adaptive Capacity Allocation for Vision Language Action Fine-tuning",
+    "authors": [
+      "Donghoon Kim",
+      "Minji Bae",
+      "Unghui Nam",
+      "Gyeonghun Kim",
+      "Suyun Lee",
+      "Kyuhong Shim",
+      "Byonghyo Shim"
+    ],
+    "summary": "Vision language action models (VLAs) are increasingly used for Physical AI, but deploying a pre-trained VLA model to unseen environments, embodiments, or tasks still requires adaptation. Parameter-efficient fine-tuning (PEFT), especially LoRA, is common for VLA policies, yet the exposed capacity knob, the rank, does not transfer uniformly: robotics transfer exhibits a higher and task-varying intrinsic rank than language fine-tuning. Small ranks suffice for LLMs (e.g., $r \\in \\{4, 8\\}$), while sp",
+    "published": "2026-03-08",
+    "published_iso": "2026-03-08T01:33:01+00:00",
+    "url": "http://arxiv.org/abs/2603.07404v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.07404v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.05982v1",
+    "title": "HarvestFlex: Strawberry Harvesting via Vision-Language-Action Policy Adaptation in the Wild",
+    "authors": [
+      "Ziyang Zhao",
+      "Shuheng Wang",
+      "Zhonghua Miao",
+      "Ya Xiong"
+    ],
+    "summary": "This work presents the first study on transferring vision-language-action (VLA) policies to real greenhouse tabletop strawberry harvesting, a long-horizon, unstructured task challenged by occlusion and specular reflections. We built an end-to-end closed-loop system on the HarvestFlex platform using three-view RGB sensing (two fixed scene views plus a wrist-mounted view) and intentionally avoided depth clouds and explicit geometric calibration. We collected 3.71 h of VR teleoperated demonstration",
+    "published": "2026-03-06",
+    "published_iso": "2026-03-06T07:26:45+00:00",
+    "url": "http://arxiv.org/abs/2603.05982v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.05982v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.05868v1",
+    "title": "AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models",
+    "authors": [
+      "Hyeongjun Heo",
+      "Seungyeon Woo",
+      "Sang Min Kim",
+      "Junho Kim",
+      "Junho Lee",
+      "Yonghyeon Lee",
+      "Young Min Kim"
+    ],
+    "summary": "Despite remarkable progress in Vision-Language-Action models (VLAs) for robot manipulation, these large pre-trained models require fine-tuning to be deployed in specific environments. These fine-tuned models are highly sensitive to camera viewpoint changes that frequently occur in unstructured environments. In this paper, we propose a zero-shot camera adaptation framework without additional demonstration data, policy fine-tuning, or architectural modification. Our key idea is to virtually adjust",
+    "published": "2026-03-06",
+    "published_iso": "2026-03-06T03:44:23+00:00",
+    "url": "http://arxiv.org/abs/2603.05868v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.05868v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2603.05147v1",
+    "title": "Act, Think or Abstain: Complexity-Aware Adaptive Inference for Vision-Language-Action Models",
+    "authors": [
+      "Riccardo Andrea Izzo",
+      "Gianluca Bardaro",
+      "Matteo Matteucci"
+    ],
+    "summary": "Current research on Vision-Language-Action (VLA) models predominantly focuses on enhancing generalization through established reasoning techniques. While effective, these improvements invariably increase computational complexity and inference latency. Furthermore, these mechanisms are typically applied indiscriminately, resulting in the inefficient allocation of resources for trivial tasks while simultaneously failing to provide the uncertainty estimation necessary to prevent catastrophic failur",
+    "published": "2026-03-05",
+    "published_iso": "2026-03-05T13:14:41+00:00",
+    "url": "http://arxiv.org/abs/2603.05147v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.05147v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2602.23648v1",
+    "title": "FAVLA: A Force-Adaptive Fast-Slow VLA model for Contact-Rich Robotic Manipulation",
+    "authors": [
+      "Yao Li",
+      "Peiyuan Tang",
+      "Wuyang Zhang",
+      "Chengyang Zhu",
+      "Yifan Duan",
+      "Weikai Shi",
+      "Xiaodong Zhang",
+      "Zijiang Yang",
+      "Jianmin Ji",
+      "Yanyong Zhang"
+    ],
+    "summary": "Force/torque feedback can substantially improve Vision-Language-Action (VLA) models on contact-rich manipulation, but most existing approaches fuse all modalities at a single operating frequency. This design ignores the mismatched sampling rates of real robot sensors, forcing downsampling of the high-frequency contact cues needed for reactive correction. Combined with common VLM-action-expert (AE) pipelines that execute action chunks largely open loop between expensive VLM updates, unified-frequ",
+    "published": "2026-02-27",
+    "published_iso": "2026-02-27T03:33:10+00:00",
+    "url": "http://arxiv.org/abs/2602.23648v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.23648v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2602.12532v1",
+    "title": "CRAFT: Adapting VLA Models to Contact-rich Manipulation via Force-aware Curriculum Fine-tuning",
+    "authors": [
+      "Yike Zhang",
+      "Yaonan Wang",
+      "Xinxin Sun",
+      "Kaizhen Huang",
+      "Zhiyuan Xu",
+      "Junjie Ji",
+      "Zhengping Che",
+      "Jian Tang",
+      "Jingtao Sun"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have shown a strong capability in enabling robots to execute general instructions, yet they struggle with contact-rich manipulation tasks, where success requires precise alignment, stable contact maintenance, and effective handling of deformable objects. A fundamental challenge arises from the imbalance between high-entropy vision and language inputs and low-entropy but critical force signals, which often leads to over-reliance on perception and unstable contr",
+    "published": "2026-02-13",
+    "published_iso": "2026-02-13T02:28:21+00:00",
+    "url": "http://arxiv.org/abs/2602.12532v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.12532v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2602.07399v1",
+    "title": "VGAS: Value-Guided Action-Chunk Selection for Few-Shot Vision-Language-Action Adaptation",
+    "authors": [
+      "Changhua Xu",
+      "Jie Lu",
+      "Junyu Xuan",
+      "En Yu"
+    ],
+    "summary": "Vision--Language--Action (VLA) models bridge multimodal reasoning with physical control, but adapting them to new tasks with scarce demonstrations remains unreliable. While fine-tuned VLA policies often produce semantically plausible trajectories, failures often arise from unresolved geometric ambiguities, where near-miss action candidates lead to divergent execution outcomes under limited supervision. We study few-shot VLA adaptation from a \\emph{generation--selection} perspective and propose a",
+    "published": "2026-02-07",
+    "published_iso": "2026-02-07T06:31:53+00:00",
+    "url": "http://arxiv.org/abs/2602.07399v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.07399v1",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2602.04208v1",
+    "title": "SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models",
+    "authors": [
+      "Hyeonbeom Choi",
+      "Daechul Ahn",
+      "Youhan Lee",
+      "Taewook Kang",
+      "Seongwon Cho",
+      "Jonghyun Choi"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose robotic control, with test-time scaling (TTS) gaining attention to enhance robustness beyond training. However, existing TTS methods for VLAs require additional training, verifiers, and multiple forward passes, making them impractical for deployment. Moreover, they intervene only at action decoding while keeping visual representations fixed-insufficient under perceptual ambiguity, where reconsidering how",
+    "published": "2026-02-04",
+    "published_iso": "2026-02-04T04:48:16+00:00",
+    "url": "http://arxiv.org/abs/2602.04208v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.04208v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2602.00780v1",
+    "title": "Environment-Aware Adaptive Pruning with Interleaved Inference Orchestration for Vision-Language-Action Models",
+    "authors": [
+      "Yuting Huang",
+      "Leilei Ding",
+      "Zhipeng Tang",
+      "Zenghuan Zhu",
+      "Jiajun Deng",
+      "Xinrui Lin",
+      "Shuo Liu",
+      "Haojie Ren",
+      "Jianmin Ji",
+      "Yanyong Zhang"
+    ],
+    "summary": "While Vision-Language-Action (VLA) models hold promise in embodied intelligence, their large parameter counts lead to substantial inference latency that hinders real-time manipulation, motivating parameter sparsification. However, as the environment evolves during VLA execution, the optimal sparsity patterns change accordingly. Static pruning lacks the adaptability required for environment dynamics, whereas fixed-interval dynamic layer pruning suffers from coarse granularity and high retraining ",
+    "published": "2026-01-31",
+    "published_iso": "2026-01-31T15:44:07+00:00",
+    "url": "http://arxiv.org/abs/2602.00780v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.00780v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2602.00686v1",
+    "title": "Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching",
+    "authors": [
+      "Yujie Wei",
+      "Jiahan Fan",
+      "Jiyu Guo",
+      "Ruichen Zhen",
+      "Rui Shao",
+      "Xiu Su",
+      "Zeke Xie",
+      "Shuo Yang"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have demonstrated remarkable generalization capabilities in robotic manipulation tasks, yet their substantial computational overhead remains a critical obstacle to real-world deployment. Improving inference efficiency is therefore essential for practical robotic applications. Existing acceleration methods often rely on heuristic or static strategies--such as rule-based token caching or pruning--that are decoupled from task objectives and fail to adapt to dynam",
+    "published": "2026-01-31",
+    "published_iso": "2026-01-31T12:12:51+00:00",
+    "url": "http://arxiv.org/abs/2602.00686v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.00686v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2601.19634v1",
+    "title": "AC^2-VLA: Action-Context-Aware Adaptive Computation in Vision-Language-Action Models for Efficient Robotic Manipulation",
+    "authors": [
+      "Wenda Yu",
+      "Tianshi Wang",
+      "Fengling Li",
+      "Jingjing Li",
+      "Lei Zhu"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have demonstrated strong performance in robotic manipulation, yet their closed-loop deployment is hindered by the high latency and compute cost of repeatedly running large vision-language backbones at every timestep. We observe that VLA inference exhibits structured redundancies across temporal, spatial, and depth dimensions, and that most existing efficiency methods ignore action context, despite its central role in embodied tasks. To address this gap, we pro",
+    "published": "2026-01-27",
+    "published_iso": "2026-01-27T14:10:39+00:00",
+    "url": "http://arxiv.org/abs/2601.19634v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.19634v1",
+    "categories": [
+      "cs.RO",
+      "cs.MM"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2601.09512v1",
+    "title": "CLARE: Continual Learning for Vision-Language-Action Models via Autonomous Adapter Routing and Expansion",
+    "authors": [
+      "Ralf Römer",
+      "Yi Zhang",
+      "Angela P. Schoellig"
+    ],
+    "summary": "To teach robots complex manipulation tasks, it is now a common practice to fine-tune a pre-trained vision-language-action model (VLA) on task-specific data. However, since this recipe updates existing representations, it is unsuitable for long-term operation in the real world, where robots must continually adapt to new tasks and environments while retaining the knowledge they have already acquired. Existing continual learning methods for robotics commonly require storing previous data (exemplars",
+    "published": "2026-01-14",
+    "published_iso": "2026-01-14T14:23:42+00:00",
+    "url": "http://arxiv.org/abs/2601.09512v1",
+    "pdf_url": "https://arxiv.org/pdf/2601.09512v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2601.06748v2",
+    "title": "On-the-Fly VLA Adaptation via Test-Time Reinforcement Learning",
+    "authors": [
+      "Changyu Liu",
+      "Yiyang Liu",
+      "Taowen Wang",
+      "Qiao Zhuang",
+      "James Chenhao Liang",
+      "Wenhao Yang",
+      "Renjing Xu",
+      "Qifan Wang",
+      "Dongfang Liu",
+      "Cheng Han"
+    ],
+    "summary": "Vision-Language-Action models have recently emerged as a powerful paradigm for general-purpose robot learning, enabling agents to map visual observations and natural-language instructions into executable robotic actions. Though popular, they are primarily trained via supervised fine-tuning or training-time reinforcement learning, requiring explicit fine-tuning phases, human interventions, or controlled data collection. Consequently, existing methods remain unsuitable for challenging simulated- o",
+    "published": "2026-01-11",
+    "published_iso": "2026-01-11T01:51:30+00:00",
+    "url": "http://arxiv.org/abs/2601.06748v2",
+    "pdf_url": "https://arxiv.org/pdf/2601.06748v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2512.15054v1",
+    "title": "A global view on star formation: The GLOSTAR Galactic plane survey XII. Effelsberg's continuum view and data release",
+    "authors": [
+      "Y. Gong",
+      "W. Reich",
+      "M. R. Rugel",
+      "K. M. Menten",
+      "A. Brunthaler",
+      "F. Wyrowski",
+      "P. Müller",
+      "S. A. Dzib",
+      "J. S. Urquhart",
+      "A. Y. Yang",
+      "R. Dokara",
+      "G. N. Ortiz-León",
+      "B. Winkel",
+      "A. Kraus",
+      "S. P. Sathyanarayanan",
+      "W. -J. Kim",
+      "H. Beuther",
+      "J. D. Pandian",
+      "A. Cheema",
+      "S. Khan",
+      "V. S. Veena",
+      "N. Roy",
+      "C. Carrasco-Gonzalez",
+      "W. Cotton",
+      "T. Csengeri",
+      "S. -N. X. Medina",
+      "H. Nguyen"
+    ],
+    "summary": "Extended radio continuum emission and its linear polarization play a key role in probing large-scale structures of synchrotron and free-free emission in the Milky Way. Despite the existence of many radio continuum surveys, sensitive and high-angular-resolution single-dish surveys of extended radio continuum emission remain scarce. As part of the GLObal view of STAR formation (GLOSTAR) survey, we will also crucially complement the existing data from the Karl G. Jansky Very Large Array (VLA) by ad",
+    "published": "2025-12-17",
+    "published_iso": "2025-12-17T03:36:35+00:00",
+    "url": "http://arxiv.org/abs/2512.15054v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.15054v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2512.07604v2",
+    "title": "Diverse stages of star formation in the IRAS 18162-2048 region. Emergence of UV Feedback",
+    "authors": [
+      "R. Fedriani",
+      "G. Anglada",
+      "A. Caratti o Garatti",
+      "J. F. Gómez",
+      "J. Masqué",
+      "M. Osorio",
+      "B. Stecklum",
+      "A. R. Rodríguez-Kamenetzky",
+      "R. Galván-Madrid",
+      "C. Carrasco-González",
+      "G. Blázquez-Calero",
+      "A. F. Placinta-Mitrea",
+      "A. Sanna",
+      "R. Cesaroni",
+      "L. Moscadelli",
+      "T. P. Ray",
+      "D. Coffey",
+      "G. A. Fuller"
+    ],
+    "summary": "Methods: We obtained adaptive optics-assisted integral field spectroscopy in the near-infrared (IR) $K$ band ($1.93-2.47 \\mathrm{μm}$) with VLT/SINFONI, complemented by VLA X and C bands (3$-$6 cm) and ALMA band 3 ($\\sim$3.3 mm) observations. Results: The near-IR continuum reveals two infrared sources, IRS 2 and IRS 7, while the main protostellar core IRAS 18162-2048 remains undetected up to $2.47 \\mathrm{μm}$. IRS 7 shows a peculiar Hydrogen Recombination Line Br$γ$ profile with a narrow emissi",
+    "published": "2025-12-08",
+    "published_iso": "2025-12-08T14:53:30+00:00",
+    "url": "http://arxiv.org/abs/2512.07604v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.07604v2",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2511.05378v1",
+    "title": "A scaling relationship for non-thermal radio emission from ordered magnetospheres - II. Investigating the efficiency of relativistic electron production in magnetospheres of BA-type stars",
+    "authors": [
+      "P. Leto",
+      "S. Owocki",
+      "C. Trigilio",
+      "F. Cavallaro",
+      "B. Das",
+      "M. E. Shultz",
+      "C. S. Buemi",
+      "G. Umana",
+      "L. Fossati",
+      "R. Ignace",
+      "J. Krticka",
+      "L. M. Oskinova",
+      "I. Pillitteri",
+      "C. Bordiu",
+      "F. Bufano",
+      "L. Cerrigone",
+      "A. Ingallinera",
+      "S. Loru",
+      "S. Riggi",
+      "A. C. Ruggeri",
+      "A. ud-Doula",
+      "F. Leone"
+    ],
+    "summary": "Magnetic BA stars host dipole-like magnetospheres. When detected as radio sources, their luminosities correlate with the magnetic field and rotation. Rotation is crucial because the mechanism undergirding the relativistic electron production is powered by centrifugal breakouts. CBOs occur wherever magnetic tension does not balance centrifugal force; the resulting magnetic reconnection provides particle acceleration. To investigate how physical conditions at the site of the CBOs affect the effici",
+    "published": "2025-11-07",
+    "published_iso": "2025-11-07T16:01:38+00:00",
+    "url": "http://arxiv.org/abs/2511.05378v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.05378v1",
+    "categories": [
+      "astro-ph.SR"
+    ],
+    "primary_category": "astro-ph.SR",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2510.05284v1",
+    "title": "First X-ray and radio polarimetry of the neutron star low-mass X-ray binary GX 17+2",
+    "authors": [
+      "Unnati Kashyap",
+      "Thomas J. Maccarone",
+      "Eliot C. Pattie",
+      "Mason Ng",
+      "Swati Ravi",
+      "Alexandra J. Tetarenko",
+      "Pau Bosch Cabot",
+      "Herman L. Marshall"
+    ],
+    "summary": "We report the first polarimetric results of the neutron star (NS) low-mass X-ray binary (LMXB) Z-source GX 17+2 using the Imaging X-ray Polarimetry Explorer (IXPE) and the Very Large Array (VLA). We find that the X-ray source was polarized at PD = 1.9 +/- 0.3 % (1-sigma errors) with a polarization angle of PA = 11 +/- 4 degree (1-sigma errors). Simultaneous Nuclear Spectroscopic Telescope Array (NuSTAR) observations show that the source was in the normal branch (NB) during our IXPE observations.",
+    "published": "2025-10-06",
+    "published_iso": "2025-10-06T18:54:04+00:00",
+    "url": "http://arxiv.org/abs/2510.05284v1",
+    "pdf_url": "https://arxiv.org/pdf/2510.05284v1",
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "primary_category": "astro-ph.HE",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2510.03098v1",
+    "title": "Deciphering the radio-star formation correlation on kpc scales. IV. Radio halos of highly-inclined Virgo cluster spiral galaxies",
+    "authors": [
+      "B. Vollmer",
+      "M. Soida",
+      "V. Heesen"
+    ],
+    "summary": "In addition to the radio continuum emission of the thin galactic disk, vertically extended emission is ubiquitous in starforming disk galaxies. This halo emission can represent an important fraction of the total emission of the galaxy The cosmic ray electrons (CRe) responsible for the radio continuum emission are produced within the thin disk and transported into the halo. We made an attempt to reconstruct the radial properties of radio continuum halos in nearly edge-on galaxies where the star f",
+    "published": "2025-10-03",
+    "published_iso": "2025-10-03T15:27:13+00:00",
+    "url": "http://arxiv.org/abs/2510.03098v1",
+    "pdf_url": "https://arxiv.org/pdf/2510.03098v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2509.24579v1",
+    "title": "U-DiT Policy: U-shaped Diffusion Transformers for Robotic Manipulation",
+    "authors": [
+      "Linzhi Wu",
+      "Aoran Mei",
+      "Xiyue Wang",
+      "Guo-Niu Zhu",
+      "Zhongxue Gan"
+    ],
+    "summary": "Diffusion-based methods have been acknowledged as a powerful paradigm for end-to-end visuomotor control in robotics. Most existing approaches adopt a Diffusion Policy in U-Net architecture (DP-U), which, while effective, suffers from limited global context modeling and over-smoothing artifacts. To address these issues, we propose U-DiT Policy, a novel U-shaped Diffusion Transformer framework. U-DiT preserves the multi-scale feature fusion advantages of U-Net while integrating the global context ",
+    "published": "2025-09-29",
+    "published_iso": "2025-09-29T10:38:53+00:00",
+    "url": "http://arxiv.org/abs/2509.24579v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.24579v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2509.22789v1",
+    "title": "Masses, Star-Formation Efficiencies, and Dynamical Evolution of 18,000 HII Regions",
+    "authors": [
+      "Debosmita Pathak",
+      "Adam K. Leroy",
+      "Ashley. T. Barnes",
+      "Todd A. Thompson",
+      "Laura A. Lopez",
+      "Karin M. Sandstrom",
+      "Jiayi Sun",
+      "Simon C. O. Glover",
+      "Ralf S. Klessen",
+      "Eric W. Koch",
+      "Kirsten L. Larson",
+      "Janice Lee",
+      "Sharon Meidt",
+      "Patricia Sanchez-Blazquez",
+      "Eva Schinnerer",
+      "Zein Bazzi",
+      "Francesco Belfiore",
+      "Médéric Boquien",
+      "Ryan Chown",
+      "Dario Colombo",
+      "Enrico Congiu",
+      "Oleg V. Egorov",
+      "Cosima Eibensteiner",
+      "Sushma Kurapati",
+      "Miguel Querejeta",
+      "Daniel A. Dale",
+      "Timo Kravtsov",
+      "Mansi Padave",
+      "D. J. Pisano",
+      "Erik Rosolowsky",
+      "Sumit K. Sarbadhicary",
+      "Thomas G. Williams",
+      "Remy Indebetouw",
+      "Hsi-An Pan",
+      "Leonardo Úbeda",
+      "Amirnezam Amiri",
+      "Frank Bigiel",
+      "Guillermo A. Blanc",
+      "Kathryn Grasha"
+    ],
+    "summary": "We present measurements of the masses associated with $\\sim18,000$ HII regions across 19 nearby star-forming galaxies by combining data from JWST, HST, MUSE, ALMA, VLA, and MeerKAT from the multi-wavelength PHANGS survey. We report 10 pc-scale measurements of the mass of young stars, ionized gas, and older disk stars coincident with each HII region, as well as the initial and current mass of molecular gas, atomic gas, and swept-up shell material, estimated from lower resolution data. We find tha",
+    "published": "2025-09-26",
+    "published_iso": "2025-09-26T18:00:07+00:00",
+    "url": "http://arxiv.org/abs/2509.22789v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.22789v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2509.09372v2",
+    "title": "VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model",
+    "authors": [
+      "Yihao Wang",
+      "Pengxiang Ding",
+      "Lingxiao Li",
+      "Can Cui",
+      "Zirui Ge",
+      "Xinyang Tong",
+      "Wenxuan Song",
+      "Han Zhao",
+      "Wei Zhao",
+      "Pengxu Hou",
+      "Siteng Huang",
+      "Yifan Tang",
+      "Wenhui Wang",
+      "Ru Zhang",
+      "Jianyi Liu",
+      "Donglin Wang"
+    ],
+    "summary": "Vision-Language-Action (VLA) models typically bridge the gap between perceptual and action spaces by pre-training a large-scale Vision-Language Model (VLM) on robotic data. While this approach greatly enhances performance, it also incurs significant training costs. In this paper, we investigate how to effectively bridge vision-language (VL) representations to action (A). We introduce VLA-Adapter, a novel paradigm designed to reduce the reliance of VLA models on large-scale VLMs and extensive pre",
+    "published": "2025-09-11",
+    "published_iso": "2025-09-11T11:42:21+00:00",
+    "url": "http://arxiv.org/abs/2509.09372v2",
+    "pdf_url": "https://arxiv.org/pdf/2509.09372v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2508.05763v1",
+    "title": "X-ray and radio polarimetry of the neutron star low mass X-ray binary GX 13+1",
+    "authors": [
+      "Unnati Kashyap",
+      "Thomas J. Maccarone",
+      "Eliot C. Pattie",
+      "Mason Ng",
+      "Swati Ravi",
+      "Herman L. Marshall"
+    ],
+    "summary": "We report the X-ray and radio polarization study of the neutron star (NS) low-mass X-ray binary (LMXB) GX 13+1 using the Imaging X-ray Polarimetry Explorer (IXPE) and Very Large Array (VLA). Simultaneous Neutron Star Interior Composition Explorer (NICER) observations show that the source was in parts of the Z state during our IXPE observations, exhibiting moderate changes in the hardness intensity diagram. The source exhibits X-ray dips in the light curve along with hints of polarization swings ",
+    "published": "2025-08-07",
+    "published_iso": "2025-08-07T18:22:28+00:00",
+    "url": "http://arxiv.org/abs/2508.05763v1",
+    "pdf_url": "https://arxiv.org/pdf/2508.05763v1",
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "primary_category": "astro-ph.HE",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2508.04375v3",
+    "title": "Low-frequency spectra of neutron star + OB supergiant binaries: Does wind density drive persistent and flaring modes of accretion?",
+    "authors": [
+      "J. van den Eijnden",
+      "L. Sidoli",
+      "M. Díaz Trigo",
+      "I. El Mellah",
+      "V. Sguera",
+      "N. Degenaar",
+      "F. Fürst",
+      "V. Grinberg",
+      "P. Kretschmar",
+      "S. Martínez-Núñez",
+      "J. C. A. Miller-Jones",
+      "K. Postnov",
+      "T. D. Russell"
+    ],
+    "summary": "Neutron star high-mass X-ray binaries are well-studied in wavebands between the infrared and hard X-rays. Their low-frequency millimeter and radio properties, on the other hand, remain poorly understood. We present observations of the millimeter and radio emission of binaries where a neutron star accretes from an OB supergiant. We report ALMA and NOEMA millimeter observations of twelve systems, supplemented by VLA radio observations of six of those targets. Our targets include six Supergiant X-r",
+    "published": "2025-08-06",
+    "published_iso": "2025-08-06T12:09:30+00:00",
+    "url": "http://arxiv.org/abs/2508.04375v3",
+    "pdf_url": "https://arxiv.org/pdf/2508.04375v3",
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.SR"
+    ],
+    "primary_category": "astro-ph.HE",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2508.03161v1",
+    "title": "Protostellar Outflows at the EarliesT Stages (POETS). VIII. The jets in the intermediate-mass star-forming region G105.42+9.88 (alias LkHα 234)",
+    "authors": [
+      "Luca Moscadelli",
+      "Fabrizio Massi",
+      "Olga Bayandina"
+    ],
+    "summary": "Our aim is to investigate the protostellar jets inside the young stellar object (YSO) cluster G105.42+9.88 (alias LkH$α$ 234). This is one of the least luminous targets of the Protostellar Outflows at the EarliesT Stages (POETS) survey, which has been recently carried out to study young outflow emission on scales of 10-100 au. The combination of multi-epoch water maser very long baseline interferometry (VLBI) observations with sensitive Jansky Very Large Array (JVLA) continuum and Large Binocula",
+    "published": "2025-08-05",
+    "published_iso": "2025-08-05T07:07:53+00:00",
+    "url": "http://arxiv.org/abs/2508.03161v1",
+    "pdf_url": "https://arxiv.org/pdf/2508.03161v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.SR",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2508.00984v2",
+    "title": "Star formation histories and gas content limits of three ultra-faint dwarfs on the periphery of M31",
+    "authors": [
+      "Michael G. Jones",
+      "David J. Sand",
+      "Paul Bennet",
+      "Denija Crnojevic",
+      "Amandine Doliva-Dolinsky",
+      "Catherine E. Fielder",
+      "Laura C. Hunter",
+      "Ananthan Karunakaran",
+      "Burcin Mutlu-Pakdil",
+      "Deepthi S. Prabhu",
+      "Kristine Spekkens",
+      "Dennis Zaritsky"
+    ],
+    "summary": "We present Hubble Space Telescope (HST) imaging of Pegasus V and Pisces VII, along with a re-analysis of the archival imaging of Pegasus W, and Jansky Very Large Array (VLA) neutral gas (HI) observations of all three. These three ultra-faint dwarfs (UFDs) are all within the Local Group in the approximate direction of M31. The VLA observations place stringent upper limits on their HI content, with all having $M_\\mathrm{HI} < 10^4\\;\\mathrm{M_\\odot}$. As the red giant branches of these UFDs are spa",
+    "published": "2025-08-01",
+    "published_iso": "2025-08-01T18:00:01+00:00",
+    "url": "http://arxiv.org/abs/2508.00984v2",
+    "pdf_url": "https://arxiv.org/pdf/2508.00984v2",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2507.21249v1",
+    "title": "Quenching Through Tidal Gas Removal: Molecular Gas and Star Formation in Tidal Tails of z ~ 0.7 Post-Starburst Galaxies",
+    "authors": [
+      "Vincenzo R. D'Onofrio",
+      "Justin S. Spilker",
+      "Rachel Bezanson",
+      "Robert Feldmann",
+      "Andy D. Goulding",
+      "Jenny E. Greene",
+      "Mariska Kriek",
+      "Yuanze Luo",
+      "Desika Narayanan",
+      "David J. Setton",
+      "Katherine A. Suess",
+      "Yunchong Zhang",
+      "Pengpei Zhu"
+    ],
+    "summary": "The active suppression of star formation in galaxies is critical in preventing the growth of overly massive systems and explaining the formation of present-day elliptical galaxies. We present a high-resolution, spatially-resolved multiwavelength study of two z ~ 0.7 massive post-starburst galaxies, SDSS J1448+1010 and SDSS J2258+2313, from the SQuIGGLE survey (Studying Quenching in Intermediate-z Galaxies: Gas, anguLar momentum, and Evolution), providing new insights into the role of mergers in ",
+    "published": "2025-07-28",
+    "published_iso": "2025-07-28T18:11:45+00:00",
+    "url": "http://arxiv.org/abs/2507.21249v1",
+    "pdf_url": "https://arxiv.org/pdf/2507.21249v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2507.01961v3",
+    "title": "AC-DiT: Adaptive Coordination Diffusion Transformer for Mobile Manipulation",
+    "authors": [
+      "Sixiang Chen",
+      "Jiaming Liu",
+      "Siyuan Qian",
+      "Han Jiang",
+      "Lily Li",
+      "Renrui Zhang",
+      "Zhuoyang Liu",
+      "Chenyang Gu",
+      "Chengkai Hou",
+      "Pengwei Wang",
+      "Zhongyuan Wang",
+      "Shanghang Zhang"
+    ],
+    "summary": "Recently, mobile manipulation has attracted increasing attention for enabling language-conditioned robotic control in household tasks. However, existing methods still face challenges in coordinating mobile base and manipulator, primarily due to two limitations. On the one hand, they fail to explicitly model the influence of the mobile base on manipulator control, which easily leads to error accumulation under high degrees of freedom. On the other hand, they treat the entire mobile manipulation p",
+    "published": "2025-07-02",
+    "published_iso": "2025-07-02T17:59:54+00:00",
+    "url": "http://arxiv.org/abs/2507.01961v3",
+    "pdf_url": "https://arxiv.org/pdf/2507.01961v3",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2506.16275v1",
+    "title": "The Radio Spectral Energy Distribution and Star Formation Calibration in MIGHTEE-COSMOS Highly Star-Forming Galaxies at 1.5 < z < 3.5",
+    "authors": [
+      "Fatemeh Tabatabaei",
+      "Maryam Khademi",
+      "Matt J. Jarvis",
+      "Russ Taylor",
+      "Imogen H. Whittam",
+      "Fangxia An",
+      "Reihaneh Javadi",
+      "Eric J. Murphy",
+      "Mattia Vaccari"
+    ],
+    "summary": "Studying the radio spectral energy distribution (SED) of distant galaxies is essential for understanding their assembly and evolution over cosmic time. We present rest-frame radio SEDs of a sample of 160 starburst galaxies at redshifts 1.5 to 3.5 in the COSMOS field, as part of the MeerKAT International GHz Tiered Extragalactic Exploration (MIGHTEE) project. MeerKAT observations, combined with archival VLA and GMRT data, allow us to determine the integrated mid-radio (1-10 GHz) continuum (MRC) l",
+    "published": "2025-06-19",
+    "published_iso": "2025-06-19T12:49:02+00:00",
+    "url": "http://arxiv.org/abs/2506.16275v1",
+    "pdf_url": "https://arxiv.org/pdf/2506.16275v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2506.11280v2",
+    "title": "Semi-empirical constraints on the HI mass function of star-forming galaxies and $Ω_{\\rm HI}$ at $z\\sim 0.37$ from interferometric surveys",
+    "authors": [
+      "Francesco Sinigaglia",
+      "Alessandro Bianchetti",
+      "Giulia Rodighiero",
+      "Lucio Mayer",
+      "Miroslava Dessauges-Zavadsky",
+      "Ed Elson",
+      "Mattia Vaccari",
+      "Matt J. Jarvis"
+    ],
+    "summary": "The HI mass function is a crucial tool to understand the evolution of the HI content in galaxies over cosmic times. We aim to derive semi-empirical constraints at $z\\sim 0.37$ by combining literature results on the $M_\\star$ function from optical surveys with recent findings on the $M_{\\rm HI}-M_\\star$ scaling relation derived via spectral stacking analysis applied to 21-cm line interferometric data from the MIGHTEE and CHILES surveys, conducted with the MeerKAT and VLA radio telescopes, respect",
+    "published": "2025-06-12",
+    "published_iso": "2025-06-12T20:38:21+00:00",
+    "url": "http://arxiv.org/abs/2506.11280v2",
+    "pdf_url": "https://arxiv.org/pdf/2506.11280v2",
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2504.05452v1",
+    "title": "A persistent disk wind and variable jet outflow in the neutron-star low-mass X-ray binary GX 13+1",
+    "authors": [
+      "Daniele Rogantini",
+      "Jeroen Homan",
+      "Richard M. Plotkin",
+      "Maureen van den Berg",
+      "James Miller-Jones",
+      "Joey Neilsen",
+      "Deepto Chakrabarty",
+      "Rob P. Fender",
+      "Norbert Schulz"
+    ],
+    "summary": "In low-mass X-ray binaries (LMXBs), accretion flows are often associated with either jet outflows or disk winds. Studies of LMXBs with luminosities up to roughly 20% of the Eddington limit indicate that these outflows generally do not co-occur, suggesting that disk winds might inhibit jets. However, previous observations of LMXBs accreting near or above the Eddington limit show that jets and winds can potentially coexist. To investigate this phenomenon, we carried out a comprehensive multi-wavel",
+    "published": "2025-04-07",
+    "published_iso": "2025-04-07T19:31:56+00:00",
+    "url": "http://arxiv.org/abs/2504.05452v1",
+    "pdf_url": "https://arxiv.org/pdf/2504.05452v1",
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "primary_category": "astro-ph.HE",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2503.07205v1",
+    "title": "X-ray and radio data obtained by XMM-Newton and VLA constrain the stellar wind of the magnetic quasi-Wolf-Rayet star in HD45166",
+    "authors": [
+      "P. Leto",
+      "L. M. Oskinova",
+      "T. Shenar",
+      "G. A. Wade",
+      "S. Owocki",
+      "C. S. Buemi",
+      "R. Ignace",
+      "C. Trigilio",
+      "G. Umana",
+      "A. ud-Doula",
+      "H. Todt",
+      "W. -R. Hamann"
+    ],
+    "summary": "Recently, a powerful magnetic field was discovered in the hot helium star classified as a quasi-Wolf-Rayet star of ~2Msun, member of the HD45166 system. Upon its explosion as a core-collapse supernova, it is expected to produce a strongly magnetic neutron star, a magnetar. Among the key parameters governing the pre-supernova evolution is the amount of mass lost via stellar wind. However, the magnetic nature of this helium star is expected to affect its stellar wind making the estimation of the w",
+    "published": "2025-03-10",
+    "published_iso": "2025-03-10T11:42:54+00:00",
+    "url": "http://arxiv.org/abs/2503.07205v1",
+    "pdf_url": "https://arxiv.org/pdf/2503.07205v1",
+    "categories": [
+      "astro-ph.SR"
+    ],
+    "primary_category": "astro-ph.SR",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2502.17588v1",
+    "title": "The arc-shaped radio source at the center of NGC 6334A: Is it a colliding wind region of two young massive stars or the bow shock of a runaway star?",
+    "authors": [
+      "Vanessa Yanza",
+      "Sergio A. Dzib",
+      "Aina Palau",
+      "Luis F. Rodríguez",
+      "Josep M. Masqué",
+      "Pedro R. Rivera-Ortiz",
+      "Sac-Nicté X. Medina"
+    ],
+    "summary": "New multi-wavelength Karl G. Jansky VLA observations of CKR02A, the compact radio source in the center of the compact HII region NGC 6334A, are presented. The observations were carried out in five epochs and included the frequency ranges 8.0 - 12.0 GHz (X-band), 18.0 - 26.0 GHz (K-band), and 29.0 - 37.0 GHz (Ka-band). The source is detected and resolved in all the observed epochs and in all bands. The source shows a clear arc-shaped structure consistent with a bow shock. The analysis of the spec",
+    "published": "2025-02-24",
+    "published_iso": "2025-02-24T19:12:39+00:00",
+    "url": "http://arxiv.org/abs/2502.17588v1",
+    "pdf_url": "https://arxiv.org/pdf/2502.17588v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.SR",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2412.07985v1",
+    "title": "The Arp 240 Galaxy Merger: A Detailed Look at the Molecular Kennicutt-Schmidt Star Formation Law on Sub-kpc Scales",
+    "authors": [
+      "Alejandro Saravia",
+      "Eduardo Rodas-Quito",
+      "Loreto Barcos-Muñoz",
+      "Aaron S. Evans",
+      "Devaky Kunneriath",
+      "George Privon",
+      "Yiqing Song",
+      "Ilsang Yoon",
+      "Kimberly Emig",
+      "María Sánchez-García",
+      "Sean Linden",
+      "Kara Green",
+      "Makoto Johnstone",
+      "Jaya Nagarajan-Swenson",
+      "Gabriela Meza",
+      "Emmanuel Momjian",
+      "Lee Armus",
+      "Vassilis Charmandaris",
+      "Tanio Diaz-Santos",
+      "Cosima Eibensteiner",
+      "Justin Howell",
+      "Hanae Inami",
+      "Justin Kader",
+      "Claudio Ricci",
+      "Ezequiel Treister",
+      "Vivian U",
+      "Thomas Bohn",
+      "David B. Sanders"
+    ],
+    "summary": "The molecular Kennicutt-Schmidt (mK-S) Law has been key for understanding star formation (SF) in galaxies across all redshifts. However, recent sub-kpc observations of nearby galaxies reveal deviations from the nearly unity slope (N) obtained with disk-averaged measurements. We study SF and molecular gas (MG) distribution in the early-stage luminous infrared galaxy merger Arp240 (NGC5257-8). Using VLA radio continuum (RC) and ALMA CO(2-1) observations with a uniform grid analysis, we estimate SF",
+    "published": "2024-12-10",
+    "published_iso": "2024-12-10T23:58:07+00:00",
+    "url": "http://arxiv.org/abs/2412.07985v1",
+    "pdf_url": "https://arxiv.org/pdf/2412.07985v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2412.07738v1",
+    "title": "Runaway O and Be stars found using Gaia DR3, new stellar bow shocks and search for binaries",
+    "authors": [
+      "M. Carretero-Castrillo",
+      "M. Ribó",
+      "J. M. Paredes",
+      "P. Benaglia"
+    ],
+    "summary": "A relevant fraction of massive stars are runaways, moving with a significant peculiar velocity with respect to their environment. Kicks from supernova explosions or the dynamical ejection of stars from clusters can account for the runaway genesis. We have used Gaia DR3 data to study the velocity distribution of massive O and Be stars from the GOSC and BeSS catalogs and identify runaway stars using a 2D-velocity method. We have discovered 42 new runaways from GOSC and 47 from BeSS, among a total ",
+    "published": "2024-12-10",
+    "published_iso": "2024-12-10T18:34:44+00:00",
+    "url": "http://arxiv.org/abs/2412.07738v1",
+    "pdf_url": "https://arxiv.org/pdf/2412.07738v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA",
+      "astro-ph.HE"
+    ],
+    "primary_category": "astro-ph.SR",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2411.06300v1",
+    "title": "VLA 22 GHz Imaging of Massive Star Formation in Local Wolf-Rayet Galaxies",
+    "authors": [
+      "Nicholas G. Ferraro",
+      "Jean L. Turner",
+      "Sara C. Beck",
+      "Edwin Alexani",
+      "Runa Indrei",
+      "Bethany M. Welch",
+      "Tunhui Xie"
+    ],
+    "summary": "We present 22 GHz imaging of regions of massive star formation within the Local Wolf-Rayet Galaxy Sample (LWRGS), a NSF's Karl G. Jansky Very Large Array (VLA) survey of 30 local galaxies showing spectral features of Wolf-Rayet (WR) stars. These spectral features are present in galaxies with young super star clusters (SSCs), and are an indicator of large concentrations of massive stars. We present a catalog of 92 individually-identified regions of likely free-free emission associated with potent",
+    "published": "2024-11-09",
+    "published_iso": "2024-11-09T22:07:54+00:00",
+    "url": "http://arxiv.org/abs/2411.06300v1",
+    "pdf_url": "https://arxiv.org/pdf/2411.06300v1",
+    "categories": [
+      "astro-ph.GA"
+    ],
+    "primary_category": "astro-ph.GA",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2410.17779v1",
+    "title": "ADEM-VL: Adaptive and Embedded Fusion for Efficient Vision-Language Tuning",
+    "authors": [
+      "Zhiwei Hao",
+      "Jianyuan Guo",
+      "Li Shen",
+      "Yong Luo",
+      "Han Hu",
+      "Yonggang Wen"
+    ],
+    "summary": "Recent advancements in multimodal fusion have witnessed the remarkable success of vision-language (VL) models, which excel in various multimodal applications such as image captioning and visual question answering. However, building VL models requires substantial hardware resources, where efficiency is restricted by two key factors: the extended input sequence of the language model with vision features demands more computational operations, and a large number of additional learnable parameters in",
+    "published": "2024-10-23",
+    "published_iso": "2024-10-23T11:31:06+00:00",
+    "url": "http://arxiv.org/abs/2410.17779v1",
+    "pdf_url": "https://arxiv.org/pdf/2410.17779v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2409.14846v2",
+    "title": "A-VL: Adaptive Attention for Large Vision-Language Models",
+    "authors": [
+      "Junyang Zhang",
+      "Mu Yuan",
+      "Ruiguang Zhong",
+      "Puhan Luo",
+      "Huiyou Zhan",
+      "Ningkang Zhang",
+      "Chengchen Hu",
+      "Xiangyang Li"
+    ],
+    "summary": "The Large Vision-Language Model (LVLM) integrates computer vision and natural language processing techniques, offering substantial application potential. However, these models demand extensive resources during inference. Adaptive attention techniques can dynamically reduce computational redundancy and thus improve efficiency. Although current adaptive attention methods significantly reduce the memory requirements of Transformer-based language models, they are not tailored for LVLMs. We observe t",
+    "published": "2024-09-23",
+    "published_iso": "2024-09-23T09:22:59+00:00",
+    "url": "http://arxiv.org/abs/2409.14846v2",
+    "pdf_url": "https://arxiv.org/pdf/2409.14846v2",
+    "categories": [
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.AI",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2112.06825v2",
+    "title": "VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks",
+    "authors": [
+      "Yi-Lin Sung",
+      "Jaemin Cho",
+      "Mohit Bansal"
+    ],
+    "summary": "Recently, fine-tuning language models pre-trained on large text corpora have provided huge improvements on vision-and-language (V&L) tasks as well as on pure language tasks. However, fine-tuning the entire parameter set of pre-trained models becomes impractical since the model size is growing rapidly. Hence, in this paper, we introduce adapter-based parameter-efficient transfer learning techniques to V&L models such as VL-BART and VLT5. We evaluate our methods in a unified multi-task setup on bo",
+    "published": "2021-12-13",
+    "published_iso": "2021-12-13T17:35:26+00:00",
+    "url": "http://arxiv.org/abs/2112.06825v2",
+    "pdf_url": "https://arxiv.org/pdf/2112.06825v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  }
+]
