@@ -20,6 +20,7 @@ def categorize_papers(papers):
     categories = {
         'VLA': [],
         'World Model': [],
+        'Policy': [],
         'Robotics': [],
         'Action Learning': [],
         'Reasoning': [],
