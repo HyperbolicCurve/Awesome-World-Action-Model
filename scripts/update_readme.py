@@ -29,6 +29,9 @@ def categorize_papers(papers):
 
     for paper in papers:
         cat = paper.get('auto_category', 'Other')
+        # Add to Other category if not in predefined categories
+        if cat not in categories:
+            cat = 'Other'
         categories[cat].append(paper)
 
     return categories
