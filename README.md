@@ -88,7 +88,7 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 | Paper | Date | Code |
 |-------|------|------|
-| [SmolVLA: A VLA for Affordable and Efficient Robotics](https://arxiv.org/abs/2506.01844)<br><small>LeRobot Team, Hugging Face</small> | 2025-06-01 | [🔗](https://github.com/huggingface/lerobot) |
+| [FASTER: Rethinking Real-Time Flow VLAs](https://arxiv.org/abs/2603.19199)<br><small>Liu, Zhang, Wang</small> | 2026-03-10 |  |
 
 ### World Model
 
@@ -140,57 +140,56 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 | 6 | **DIAL**: Decoupling Intent and Action via Latent World Modeling for VLA | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.29844) |
 | 7 | **EAPruning**: Adaptive Pruning with Interleaved Inference for VLA | Huang et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.00780) |
 | 8 | **ETA-VLA**: Efficient Token Adaptation | Wang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.25766) |
-| 10 | **FAVLA**: Force-Adaptive Fast-Slow VLA | Li et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.23648) |
-| 11 | **HarvestFlex**: Harvesting via VLA Policy Adaptation | Zhao et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.05982) |
-| 12 | **On-the-Fly VLA**: VLA Adaptation via Test-Time RL | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.06748) |
-| 13 | **ProbeFlow**: Training-Free Adaptive Flow Matching for VLA | Fang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.17850) |
-| 14 | **RAFT**: Adapting VLA Models via Force-aware Curriculum | Zhang et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.12532) |
-| 15 | **ROBOGATE**: Adaptive Failure Discovery for Safe Robot Policy | Kim et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.22126) |
-| 16 | **SAMoE-VLA**: Scene Adaptive Mixture-of-Experts VLA | You et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.08113) |
-| 17 | **SCALE**: Self-Uncertainty Adaptive Looking for VLA | Choi et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.04208) |
-| 18 | **SOMA**: Memory-Augmented System for VLA Robustness | Li et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.24060) |
-| 19 | **VGAS**: Adaptive Capacity Allocation for VLA | Kim et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.07404) |
-| 20 | **VLA-Acceleration**: Accelerate VLA through Visual Token Caching | Wei et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.00686) |
-| 21 | **VGAS**: Value-Guided Action-Chunk Selection for VLA | Xu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.07399) |
-| 22 | **AC-DiT**: AC-DiT: Adaptive Coordination Diffusion Transformer | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2507.01961) |
-| 23 | **U-DiT**: U-DiT: U-shaped Diffusion Transformers | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2509.24579) |
-| 24 | **VLA-Adapter**: VLA-Adapter: Tiny-Scale VLA Paradigm | Wang et al. | 2025 | [arXiv](https://arxiv.org/abs/2509.09372) |
-| 25 | **A-VL**: Adaptive Attention for Large VLA | Zhang et al. | 2024 | [arXiv](https://arxiv.org/abs/2409.14846) |
-| 26 | **ADEM-VL**: Adaptive and Embedded Fusion for VLA | Hao et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.17779) |
-| 27 | **VL-Adapter**: VL-Adapter: Parameter-Efficient Transfer Learning | Sung et al. | 2021 | [arXiv](https://arxiv.org/abs/2112.06825) |
-| 28 | **VLANeXt**: Recipes for Building Strong VLA Models | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.18532) [Project](https://dravenalg.github.io/VLANeXt/) |
-| 29 | **HoloBrain-0**: Technical Report | Horizon Robotics | 2026 | [arXiv](https://arxiv.org/abs/2602.12062) [Project](https://horizonrobotics.github.io/robot_lab/holobrain/) |
-| 30 | **FocusVLA**: Focused Visual Utilization for VLA Models | Zhang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28740) |
-| 31 | **StreamingVLA**: Streaming VLA with Action Flow Matching | Shi et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28565) |
-| 32 | **ABot-M0**: VLA with Action Manifold Learning | AMAP CVLab | 2026 | [arXiv](https://arxiv.org/abs/2602.11236) [Project](https://amap-cvlab.github.io/ABot-Manipulation/) |
-| 33 | **SimVLA**: A Simple VLA Baseline for Robotic Manipulation | FrontierRoBo | 2026 | [arXiv](https://arxiv.org/abs/2602.18224) [Project](https://frontierrobo.github.io/SimVLA/) |
-| 34 | **Lingbot-VLA**: A Pragmatic VLA Foundation Model | Robbyant | 2026 | [arXiv](https://arxiv.org/abs/2601.18692) [Project](https://technology.robbyant.com/lingbot-vla/) |
-| 35 | **Gemini Robotics**: Bringing AI into the Physical World | DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2503.20020) [Project](https://deepmind.google/models/gemini-robotics/) |
-| 36 | **π\*0.6**: A VLA That Learns From Experience | Black et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14759) [Project](https://www.pi.website/blog/pistar06) |
-| 37 | **X-VLA**: Soft-Prompted Transformer as Scalable Cross-Embodiment VLA | Zheng et al. | 2025 | [arXiv](https://arxiv.org/abs/2510.10274) [Project](https://thu-air-dream.github.io/X-VLA/) |
-| 38 | **UniVLA**: Unified Vision-Language-Action Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) [Project](https://robertwyq.github.io/univla.github.io/) |
-| 39 | **SmolVLA**: A VLA for Affordable and Efficient Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) [Project](https://github.com/huggingface/lerobot) |
-| 40 | **NORA**: A Small Open-Sourced Generalist VLA | Nandan et al. | 2025 | [arXiv](https://arxiv.org/abs/2504.19854) [Project](https://declare-lab.github.io/nora) |
-| 41 | **VLA-0**: Building State-of-the-Art VLAs with Zero Modification | VLA0 | 2025 | [arXiv](https://arxiv.org/abs/2510.13054) [Project](https://vla0.github.io) |
-| 42 | **CronusVLA**: Efficient Multi-Frame VLA | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19816) [Project](https://lihaohn.github.io/CronusVLA.github.io/) |
-| 43 | **OpenVLA-OFT**: Fine-Tuning VLAs: Optimizing Speed and Success | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2502.19645) [Project](https://openvla-oft.github.io) |
-| 44 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
-| 45 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
-| 46 | **OpenVLA**: OpenVLA: An Open-Source Vision-Language-Action Model | Kim et al. | 2024 | [arXiv](https://arxiv.org/abs/2406.09246) [Project](https://openvla.github.io) |
-| 47 | **Octo**: Octo: An Open-Source Generalist Robot Policy | Ghosh et al. | 2024 | [arXiv](https://arxiv.org/abs/2405.12213) [Project](https://octo-models.github.io) |
-| 48 | **π0**: A Multimodal Autoregressive Action Model | Black et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.24164) [Project](https://www.pi.website/blog/p0) |
-| 49 | **RT-2**: Vision-Language-Action Models | Brohan et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) [Project](https://robotics-transformer2.github.io) |
-| 50 | **RT-1**: Robotics Transformer for Real-World Control at Scale | Brohan et al. | 2022 | [arXiv](https://arxiv.org/abs/2212.06817) [Project](https://robotics-transformer1.github.io) |
-
+| 9 | **FAVLA**: Force-Adaptive Fast-Slow VLA | Li et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.23648) |
+| 10 | **HarvestFlex**: Harvesting via VLA Policy Adaptation | Zhao et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.05982) |
+| 11 | **On-the-Fly VLA**: VLA Adaptation via Test-Time RL | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.06748) |
+| 12 | **ProbeFlow**: Training-Free Adaptive Flow Matching for VLA | Fang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.17850) |
+| 13 | **RAFT**: Adapting VLA Models via Force-aware Curriculum | Zhang et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.12532) |
+| 14 | **ROBOGATE**: Adaptive Failure Discovery for Safe Robot Policy | Kim et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.22126) |
+| 15 | **SAMoE-VLA**: Scene Adaptive Mixture-of-Experts VLA | You et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.08113) |
+| 16 | **SCALE**: Self-Uncertainty Adaptive Looking for VLA | Choi et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.04208) |
+| 17 | **SOMA**: Memory-Augmented System for VLA Robustness | Li et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.24060) |
+| 18 | **VGAS**: Adaptive Capacity Allocation for VLA | Kim et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.07404) |
+| 19 | **VLA-Acceleration**: Accelerate VLA through Visual Token Caching | Wei et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.00686) |
+| 20 | **VGAS**: Value-Guided Action-Chunk Selection for VLA | Xu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.07399) |
+| 21 | **VLANeXt**: Recipes for Building Strong VLA Models | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.18532) [Project](https://dravenalg.github.io/VLANeXt/) |
+| 22 | **HoloBrain-0**: Technical Report | Horizon Robotics | 2026 | [arXiv](https://arxiv.org/abs/2602.12062) [Project](https://horizonrobotics.github.io/robot_lab/holobrain/) |
+| 23 | **FocusVLA**: Focused Visual Utilization for VLA Models | Zhang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28740) |
+| 24 | **StreamingVLA**: Streaming VLA with Action Flow Matching | Shi et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28565) |
+| 25 | **ABot-M0**: VLA with Action Manifold Learning | AMAP CVLab | 2026 | [arXiv](https://arxiv.org/abs/2602.11236) [Project](https://amap-cvlab.github.io/ABot-Manipulation/) |
+| 26 | **SimVLA**: A Simple VLA Baseline for Robotic Manipulation | FrontierRoBo | 2026 | [arXiv](https://arxiv.org/abs/2602.18224) [Project](https://frontierrobo.github.io/SimVLA/) |
+| 27 | **Lingbot-VLA**: A Pragmatic VLA Foundation Model | Robbyant | 2026 | [arXiv](https://arxiv.org/abs/2601.18692) [Project](https://technology.robbyant.com/lingbot-vla/) |
+| 28 | **AC-DiT**: AC-DiT: Adaptive Coordination Diffusion Transformer | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2507.01961) |
+| 29 | **U-DiT**: U-DiT: U-shaped Diffusion Transformers | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2509.24579) |
+| 30 | **VLA-Adapter**: VLA-Adapter: Tiny-Scale VLA Paradigm | Wang et al. | 2025 | [arXiv](https://arxiv.org/abs/2509.09372) |
+| 31 | **Gemini Robotics**: Bringing AI into the Physical World | DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2503.20020) [Project](https://deepmind.google/models/gemini-robotics/) |
+| 32 | **π\*0.6**: A VLA That Learns From Experience | Black et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14759) [Project](https://www.pi.website/blog/pistar06) |
+| 33 | **X-VLA**: Soft-Prompted Transformer as Scalable Cross-Embodiment VLA | Zheng et al. | 2025 | [arXiv](https://arxiv.org/abs/2510.10274) [Project](https://thu-air-dream.github.io/X-VLA/) |
+| 34 | **UniVLA**: Unified Vision-Language-Action Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) [Project](https://robertwyq.github.io/univla.github.io/) |
+| 35 | **SmolVLA**: A VLA for Affordable and Efficient Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) [Project](https://github.com/huggingface/lerobot) |
+| 36 | **NORA**: A Small Open-Sourced Generalist VLA | Nandan et al. | 2025 | [arXiv](https://arxiv.org/abs/2504.19854) [Project](https://declare-lab.github.io/nora) |
+| 37 | **VLA-0**: Building State-of-the-Art VLAs with Zero Modification | VLA0 | 2025 | [arXiv](https://arxiv.org/abs/2510.13054) [Project](https://vla0.github.io) |
+| 38 | **CronusVLA**: Efficient Multi-Frame VLA | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19816) [Project](https://lihaohn.github.io/CronusVLA.github.io/) |
+| 39 | **OpenVLA-OFT**: Fine-Tuning VLAs: Optimizing Speed and Success | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2502.19645) [Project](https://openvla-oft.github.io) |
+| 40 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
+| 41 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
+| 42 | **A-VL**: Adaptive Attention for Large VLA | Zhang et al. | 2024 | [arXiv](https://arxiv.org/abs/2409.14846) |
+| 43 | **ADEM-VL**: Adaptive and Embedded Fusion for VLA | Hao et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.17779) |
+| 44 | **OpenVLA**: OpenVLA: An Open-Source Vision-Language-Action Model | Kim et al. | 2024 | [arXiv](https://arxiv.org/abs/2406.09246) [Project](https://openvla.github.io) |
+| 45 | **Octo**: Octo: An Open-Source Generalist Robot Policy | Ghosh et al. | 2024 | [arXiv](https://arxiv.org/abs/2405.12213) [Project](https://octo-models.github.io) |
+| 46 | **π0**: A Multimodal Autoregressive Action Model | Black et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.24164) [Project](https://www.pi.website/blog/p0) |
+| 47 | **RT-2**: Vision-Language-Action Models | Brohan et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) [Project](https://robotics-transformer2.github.io) |
+| 48 | **RT-1**: Robotics Transformer for Real-World Control at Scale | Brohan et al. | 2022 | [arXiv](https://arxiv.org/abs/2212.06817) [Project](https://robotics-transformer1.github.io) |
+| 49 | **VL-Adapter**: VL-Adapter: Parameter-Efficient Transfer Learning | Sung et al. | 2021 | [arXiv](https://arxiv.org/abs/2112.06825) |
 
 ### VLA with Reasoning
 
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
 | 1 | **ACoT-VLA**: Action Chain-of-Thought for VLA Models | AgibotTech | 2026 | [arXiv](https://arxiv.org/abs/2601.11404) [Project](https://github.com/AgibotTech/ACoT-VLA) |
-| 2 | **CoT-VLA**: Visual Chain-of-Thought Reasoning for VLA | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2503.22020) |
-| 3 | **ThinkAct**: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2507.16815) |
-| 4 | **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.09708) |
+| 2 | **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.09708) |
+| 3 | **CoT-VLA**: Visual Chain-of-Thought Reasoning for VLA | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2503.22020) |
+| 4 | **ThinkAct**: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2507.16815) |
 | 5 | **UniVLA**: VLA with World Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) |
 
 ### VLA with 3D/4D Modeling
@@ -204,11 +203,12 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
-| 1 | **SmolVLA**: A Vision-Language-Action Model for Affordable Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) |
-| 2 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
-| 3 | **OpenHelix**: A Short Survey and Open-Source Dual-System VLA | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2505.03912) |
-| 4 | **RTC**: Running VLAs at Real-time Speed | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2510.26742) |
-| 5 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
+| 1 | **FASTER**: Rethinking Real-Time Flow VLAs | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.19199) |
+| 2 | **SmolVLA**: A Vision-Language-Action Model for Affordable Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) |
+| 3 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
+| 4 | **OpenHelix**: A Short Survey and Open-Source Dual-System VLA | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2505.03912) |
+| 5 | **RTC**: Running VLAs at Real-time Speed | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2510.26742) |
+| 6 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
 
 ### VLA with RL Fine-tuning
 
@@ -216,10 +216,6 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 |---|-------|---------|------|-------|
 | 1 | **SimpleVLA-RL**: Scaling VLA Training via Reinforcement Learning | Pi Team | 2025 | [arXiv](https://arxiv.org/abs/2509.09674) |
 | 2 | **OpenVLA-OFT**: Fine-Tuning VLAs: Optimizing Speed and Success | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2502.19645) [Project](https://openvla-oft.github.io) |
-
----
-
-## World Action Models
 
 ### WAM from Video Generation
 
@@ -240,11 +236,9 @@ WAM models are robotics policies that leverage the world modeling capability (i.
 
 | # | Paper | Authors | Year | Links |
 |---|-------|---------|------|-------|
-| 1 | **DreamerV3**: Mastering Atari from Pixels | Hafner et al. | 2023 | [arXiv](https://arxiv.org/abs/2301.04104) [Project](https://github.com/danijar/dreamer) |
-| 2 | **I-JEPA**: Image-based Joint-Embedding Predictive Architecture | Esser et al. | 2023 | [arXiv](https://arxiv.org/abs/2301.08243) |
-| 3 | **V-JEPA**: Video Joint-Embedding Predictive Architecture | Esser et al. | 2024 | [arXiv](https://arxiv.org/abs/2402.05883) |
-
----
+| 1 | **V-JEPA**: Video Joint-Embedding Predictive Architecture | Esser et al. | 2024 | [arXiv](https://arxiv.org/abs/2402.05883) |
+| 2 | **DreamerV3**: Mastering Atari from Pixels | Hafner et al. | 2023 | [arXiv](https://arxiv.org/abs/2301.04104) [Project](https://github.com/danijar/dreamer) |
+| 3 | **I-JEPA**: Image-based Joint-Embedding Predictive Architecture | Esser et al. | 2023 | [arXiv](https://arxiv.org/abs/2301.08243) |
 
 ## Action Representations
 
