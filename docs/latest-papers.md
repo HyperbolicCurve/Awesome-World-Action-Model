@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-02 02:47:34
+Generated on: 2026-04-03 02:34:08
 
 Total papers: 50
 
@@ -8,6 +8,10 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models](https://arxiv.org/abs/2604.02241v1)<br><small>Qiyao Zhang et al.</small> | 2026-04-02 |  |
+| [Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving](https://arxiv.org/abs/2604.01723v1)<br><small>Yun Li et al.</small> | 2026-04-02 |  |
+| [Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models](https://arxiv.org/abs/2604.01618v1)<br><small>Jiawei Chen et al.</small> | 2026-04-02 |  |
+| [Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior](https://arxiv.org/abs/2604.01570v1)<br><small>Haochen Niu et al.</small> | 2026-04-02 |  |
 | [DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA](https://arxiv.org/abs/2603.29844v1)<br><small>Yi Chen et al.</small> | 2026-03-31 |  |
 | [FocusVLA: Focused Visual Utilization for Vision-Language-Action Models](https://arxiv.org/abs/2603.28740v1)<br><small>Yichi Zhang et al.</small> | 2026-03-30 |  |
 | [StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation](https://arxiv.org/abs/2603.28565v1)<br><small>Yiran Shi et al.</small> | 2026-03-30 |  |
@@ -19,15 +23,12 @@ Total papers: 50
 | [Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving](https://arxiv.org/abs/2603.25740v1)<br><small>Zehao Wang et al.</small> | 2026-03-26 |  |
 | [Fast-dVLA: Accelerating Discrete Diffusion VLA to Real-Time Performance](https://arxiv.org/abs/2603.25661v2)<br><small>Wenxuan Song et al.</small> | 2026-03-26 |  |
 | [MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation](https://arxiv.org/abs/2603.25406v2)<br><small>Yang Liu et al.</small> | 2026-03-26 |  |
-| [LaMP: Learning Vision-Language-Action Policies with 3D Scene Flow as Latent Motion Prior](https://arxiv.org/abs/2603.25399v1)<br><small>Xinkai Wang et al.</small> | 2026-03-26 |  |
-| [ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models](https://arxiv.org/abs/2603.25766v1)<br><small>Yiru Wang et al.</small> | 2026-03-26 |  |
-| [ThermoAct:Thermal-Aware Vision-Language-Action Models for Robotic Perception and Decision-Making](https://arxiv.org/abs/2603.25044v2)<br><small>Young-Chae Son et al.</small> | 2026-03-26 |  |
-| [$π$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation](https://arxiv.org/abs/2603.25038v1)<br><small>Johnathan Tucker et al.</small> | 2026-03-26 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou et al.</small> | 2026-04-02 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang et al.</small> | 2026-03-25 |  |
 | [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666v2)<br><small>Tianyuan Yuan et al.</small> | 2026-03-17 |  |
 | [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922v1)<br><small>Seonghyeon Ye et al.</small> | 2026-02-17 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [Occupancy World Model for Robots](https://arxiv.org/abs/2505.05512v1)<br><small>Zhang Zhang et al.</small> | 2025-05-07 |  |
 | [DyWA: Dynamics-adaptive World Action Model for Generalizable Non-prehensile Manipulation](https://arxiv.org/abs/2503.16806v2)<br><small>Jiangran Lyu et al.</small> | 2025-03-21 |  |
 | [Dream to Manipulate: Compositional World Models Empowering Robot Imitation Learning with Imagination](https://arxiv.org/abs/2412.14957v2)<br><small>Leonardo Barcellona et al.</small> | 2024-12-19 |  |
-| [PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation](https://arxiv.org/abs/2410.10394v2)<br><small>Kaidong Zhang et al.</small> | 2024-10-14 |  |
 
 ## Policy
 

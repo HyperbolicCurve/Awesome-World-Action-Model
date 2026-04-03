@@ -1,5 +1,139 @@
 [
   {
+    "id": "2604.02241v1",
+    "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
+    "authors": [
+      "Qiyao Zhang",
+      "Shuhua Zheng",
+      "Jianli Sun",
+      "Chengxiang Li",
+      "Xianke Wu",
+      "Zihan Song",
+      "Zhiyong Cui",
+      "Yisheng Lv",
+      "Yonglin Tian"
+    ],
+    "summary": "Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal fusion and continuous action generation capabilities. To benchmark multimodal tracking in such environments, we construct a dedicated evaluation benchmark and a large-scale dataset encompassing over 890K frames, 176 tasks, and 85 diverse objects. Fu",
+    "published": "2026-04-02",
+    "published_iso": "2026-04-02T16:33:38+00:00",
+    "url": "https://arxiv.org/abs/2604.02241v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.02241v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.01765v1",
+    "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
+    "authors": [
+      "Yang Zhou",
+      "Xiaofeng Wang",
+      "Hao Shao",
+      "Letian Wang",
+      "Guosheng Zhao",
+      "Jiangnan Shao",
+      "Jiagang Zhu",
+      "Tingdong Yu",
+      "Zheng Zhu",
+      "Guan Huang",
+      "Steven L. Waslander"
+    ],
+    "summary": "Recently, world-action models (WAM) have emerged to bridge vision-language-action (VLA) models and world models, unifying their reasoning and instruction-following capabilities and spatio-temporal world modeling. However, existing WAM approaches often focus on modeling 2D appearance or latent representations, with limited geometric grounding-an essential element for embodied systems operating in the physical world. We present DriveDreamer-Policy, a unified driving world-action model that integra",
+    "published": "2026-04-02",
+    "published_iso": "2026-04-02T08:33:18+00:00",
+    "url": "https://arxiv.org/abs/2604.01765v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01765v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2604.01723v1",
+    "title": "Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving",
+    "authors": [
+      "Yun Li",
+      "Yidu Zhang",
+      "Simon Thompson",
+      "Ehsan Javanmardi",
+      "Manabu Tsukada"
+    ],
+    "summary": "Vision-Language-Action (VLA) models for autonomous driving must integrate diverse textual inputs, including navigation commands, hazard warnings, and traffic state descriptions, yet current systems often present these as disconnected fragments, forcing the model to discover on its own which environmental constraints are relevant to the current maneuver. We introduce Causal Scene Narration (CSN), which restructures VLA text inputs through intent-constraint alignment, quantitative grounding, and s",
+    "published": "2026-04-02",
+    "published_iso": "2026-04-02T07:43:05+00:00",
+    "url": "https://arxiv.org/abs/2604.01723v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01723v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.01618v1",
+    "title": "Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models",
+    "authors": [
+      "Jiawei Chen",
+      "Simin Huang",
+      "Jiawei Du",
+      "Shuaihang Chen",
+      "Yu Tian",
+      "Mingjie Wei",
+      "Chao Yu",
+      "Zhaoxia Yin"
+    ],
+    "summary": "Vision-language-action (VLA) models have shown strong performance in robotic manipulation, yet their robustness to physically realizable adversarial attacks remains underexplored. Existing studies reveal vulnerabilities through language perturbations and 2D visual attacks, but these attack surfaces are either less representative of real deployment or limited in physical realism. In contrast, adversarial 3D textures pose a more physically plausible and damaging threat, as they are naturally attac",
+    "published": "2026-04-02",
+    "published_iso": "2026-04-02T04:55:34+00:00",
+    "url": "https://arxiv.org/abs/2604.01618v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01618v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.01570v1",
+    "title": "Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior",
+    "authors": [
+      "Haochen Niu",
+      "Kanyu Zhang",
+      "Shuyu Yin",
+      "Qinghai Guo",
+      "Peilin Liu",
+      "Fei Wen"
+    ],
+    "summary": "In real-world robotic manipulation, states typically admit a neighborhood of near-equivalent actions. That is, for each state, there exist a feasible action neighborhood (FAN) rather than a single correct action, within which motions yield indistinguishable progress. However, prevalent VLA training methodologies are directly inherited from linguistic settings and do not exploit the FAN property, thus leading to poor generalization and low sample efficiency. To address this limitation, we introdu",
+    "published": "2026-04-02",
+    "published_iso": "2026-04-02T03:30:43+00:00",
+    "url": "https://arxiv.org/abs/2604.01570v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.01570v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2603.29844v1",
     "title": "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA",
     "authors": [
@@ -712,87 +846,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2603.22846v2",
-    "title": "CoMaTrack: Competitive Multi-Agent Game-Theoretic Tracking with Vision-Language-Action Models",
-    "authors": [
-      "Youzhi Liu",
-      "Li Gao",
-      "Liu Liu",
-      "Mingyang Lv",
-      "Yang Cai"
-    ],
-    "summary": "Embodied Visual Tracking (EVT), a core dynamic task in embodied intelligence, requires an agent to precisely follow a language-specified target. Yet most existing methods rely on single-agent imitation learning, suffering from costly expert data and limited generalization due to static training environments. Inspired by competition-driven capability evolution, we propose CoMaTrack, a competitive game-theoretic multi-agent reinforcement learning framework that trains agents in a dynamic adversari",
-    "published": "2026-03-24",
-    "published_iso": "2026-03-24T06:35:19+00:00",
-    "url": "https://arxiv.org/abs/2603.22846v2",
-    "pdf_url": "https://arxiv.org/pdf/2603.22846v2",
-    "categories": [
-      "cs.AI"
-    ],
-    "primary_category": "cs.AI",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.22760v1",
-    "title": "SG-VLA: Learning Spatially-Grounded Vision-Language-Action Models for Mobile Manipulation",
-    "authors": [
-      "Ruisen Tu",
-      "Arth Shukla",
-      "Sohyun Yoo",
-      "Xuanlin Li",
-      "Junxi Li",
-      "Jianwen Xie",
-      "Hao Su",
-      "Zhuowen Tu"
-    ],
-    "summary": "Vision-Language-Action (VLA) models show promise for robotic control, yet performance in complex household environments remains sub-optimal. Mobile manipulation requires reasoning about global scene layout, fine-grained geometry, and high-dimensional continuous actions, making standard imitation learning insufficient. We introduce a framework for learning spatially-grounded VLA models that strengthens perception and representation through auxiliary task co-training and multi-modal input enhancem",
-    "published": "2026-03-24",
-    "published_iso": "2026-03-24T03:44:25+00:00",
-    "url": "https://arxiv.org/abs/2603.22760v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.22760v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.22280v1",
-    "title": "DualCoT-VLA: Visual-Linguistic Chain of Thought via Parallel Reasoning for Vision-Language-Action Models",
-    "authors": [
-      "Zhide Zhong",
-      "Junfeng Li",
-      "Junjie He",
-      "Haodong Yan",
-      "Xin Gong",
-      "Guanyi Zhao",
-      "Yingjie Cai",
-      "Jiantao Gao",
-      "Xu Yan",
-      "Bingbing Liu",
-      "Yingcong Chen",
-      "Liuqing Yang",
-      "Haoang Li"
-    ],
-    "summary": "Vision-Language-Action (VLA) models map visual observations and language instructions directly to robotic actions. While effective for simple tasks, standard VLA models often struggle with complex, multi-step tasks requiring logical planning, as well as precise manipulations demanding fine-grained spatial perception. Recent efforts have incorporated Chain-of-Thought (CoT) reasoning to endow VLA models with a ``thinking before acting'' capability. However, current CoT-based VLA models face two cr",
-    "published": "2026-03-23",
-    "published_iso": "2026-03-23T17:59:25+00:00",
-    "url": "https://arxiv.org/abs/2603.22280v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.22280v1",
-    "categories": [
-      "cs.CV",
-      "cs.RO"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2603.22078v2",
     "title": "Do World Action Models Generalize Better than VLAs? A Robustness Study",
     "authors": [
@@ -1306,54 +1359,6 @@
     "published_iso": "2024-06-16T03:08:48+00:00",
     "url": "https://arxiv.org/abs/2406.10788v1",
     "pdf_url": "https://arxiv.org/pdf/2406.10788v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2404.12377v1",
-    "title": "RoboDreamer: Learning Compositional World Models for Robot Imagination",
-    "authors": [
-      "Siyuan Zhou",
-      "Yilun Du",
-      "Jiaben Chen",
-      "Yandong Li",
-      "Dit-Yan Yeung",
-      "Chuang Gan"
-    ],
-    "summary": "Text-to-video models have demonstrated substantial potential in robotic decision-making, enabling the imagination of realistic plans of future actions as well as accurate environment simulation. However, one major issue in such models is generalization -- models are limited to synthesizing videos subject to language instructions similar to those seen at training time. This is heavily limiting in decision-making, where we seek a powerful world model to synthesize plans of unseen combinations of o",
-    "published": "2024-04-18",
-    "published_iso": "2024-04-18T17:58:03+00:00",
-    "url": "https://arxiv.org/abs/2404.12377v1",
-    "pdf_url": "https://arxiv.org/pdf/2404.12377v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2402.18174v1",
-    "title": "Generation of skill-specific maps from graph world models for robotic systems",
-    "authors": [
-      "Koen de Vos",
-      "Gijs van den Brandt",
-      "Jordy Senden",
-      "Pieter Pauwels",
-      "Rene van de Molengraft",
-      "Elena Torta"
-    ],
-    "summary": "With the increase in the availability of Building Information Models (BIM) and (semi-) automatic tools to generate BIM from point clouds, we propose a world model architecture and algorithms to allow the use of the semantic and geometric knowledge encoded within these models to generate maps for robot localization and navigation. When heterogeneous robots are deployed within an environment, maps obtained from classical SLAM approaches might not be shared between all agents within a team of robot",
-    "published": "2024-02-28",
-    "published_iso": "2024-02-28T09:04:10+00:00",
-    "url": "https://arxiv.org/abs/2402.18174v1",
-    "pdf_url": "https://arxiv.org/pdf/2402.18174v1",
     "categories": [
       "cs.RO"
     ],
