@@ -474,7 +474,7 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 | [DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking](https://arxiv.org/abs/2611.09041v1) | Shengjun Deng, Yinghan Zhang et al. | 2026-11-06 |  |
 | [PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation](https://arxiv.org/abs/2611.08917v1) | Jiachen Tao, Gengyu Zhang et al. | 2026-11-06 |  |
 | [VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models](https://arxiv.org/abs/2611.08698v2) | Luca Macesanu, Tianluo Zhang et al. | 2026-11-05 |  |
-| [Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation](https://arxiv.org/abs/2611.08577v2) |  Meituan Robotics Team, Caicheng Wang et al. | 2026-11-05 |  |
+| [Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation](https://arxiv.org/abs/2611.08577v3) |  Meituan Robotics Team, Caicheng Wang et al. | 2026-11-05 |  |
 | [World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer](https://arxiv.org/abs/2610.37518v1) | Guoning Wu, Zijian Cai et al. | 2026-10-27 |  |
 | [FocusVLA: Focused Visual Utilization for Vision-Language-Action Models](http://arxiv.org/abs/2603.28740v1) | Yichi Zhang, Weihao Yuan et al. | 2026-03-30 |  |
 | [ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation](http://arxiv.org/abs/2603.27670v1) | Hongyu Yan, Qiwei Li et al. | 2026-03-29 |  |

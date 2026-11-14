@@ -839,7 +839,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2611.08577v2",
+    "id": "2611.08577v3",
     "title": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
     "authors": [
       " Meituan Robotics Team",
@@ -884,8 +884,8 @@
     "summary": "We present Meituan-Robotics-0 (MR0), a vision-language-action foundation model and embodied-agent system for stationary-base desktop manipulation. MR0 combines 147 million vision-language samples with 15,060 hours of curated robot trajectories spanning 12 embodiments. A three-stage training recipe aligns multimodal representations with robot behavior through discrete action-token pre-training, transfers these priors to continuous cross-embodiment control through flow-matching mid-training, and a",
     "published": "2026-11-05",
     "published_iso": "2026-11-05T18:55:42+00:00",
-    "url": "https://arxiv.org/abs/2611.08577v2",
-    "pdf_url": "https://arxiv.org/pdf/2611.08577v2",
+    "url": "https://arxiv.org/abs/2611.08577v3",
+    "pdf_url": "https://arxiv.org/pdf/2611.08577v3",
     "categories": [
       "cs.RO",
       "cs.CV"
