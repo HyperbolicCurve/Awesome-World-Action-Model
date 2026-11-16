@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-11-15 05:16:34
+Generated on: 2026-11-16 05:16:37
 
 Total papers: 50
 
@@ -8,26 +8,13 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
-| [What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation](https://arxiv.org/abs/2611.16246v1)<br><small>Jinze Tao et al.</small> | 2026-11-12 |  |
-| [What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation](https://arxiv.org/abs/2611.15491v1)<br><small>Zhuoyue Li et al.</small> | 2026-11-11 |  |
-| [Scaling VLA Serving Under Robotic Execution Constraints](https://arxiv.org/abs/2611.14969v1)<br><small>Yue Zhang et al.</small> | 2026-11-11 |  |
-| [Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models](https://arxiv.org/abs/2611.14834v1)<br><small>Wen-Han Hsieh et al.</small> | 2026-11-10 |  |
-| [Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies](https://arxiv.org/abs/2611.14488v1)<br><small>Chubin Zhang et al.</small> | 2026-11-10 |  |
-| [How Much of Your VLA Is kNN](https://arxiv.org/abs/2611.13160v1)<br><small>Denis Grachev et al.</small> | 2026-11-09 |  |
-| [VLA Adaptation with Real and Simulated Data: A Case Study on Robotic Chess](https://arxiv.org/abs/2611.12676v1)<br><small>Matěj Kripner et al.</small> | 2026-11-09 |  |
-| [AutoVLA-D: Learn a Trajectory-Geometric Condition from Reasoning for Autonomous Driving VLA](https://arxiv.org/abs/2611.12382v1)<br><small>Yuguang Yang et al.</small> | 2026-11-09 |  |
-| [VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation](https://arxiv.org/abs/2611.12286v1)<br><small>Yongxuan Lv et al.</small> | 2026-11-09 |  |
-| [APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.13030v1)<br><small>Xiaoyang Xing et al.</small> | 2026-11-09 |  |
-| [Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation](https://arxiv.org/abs/2611.11981v1)<br><small>Jingxuan Chen et al.</small> | 2026-11-09 |  |
-| [DeltaForge: A Post-hoc Mixture-of-Experts VLA for Multi-Domain Autonomous Driving](https://arxiv.org/abs/2611.11856v1)<br><small>Bingzhang Wang et al.</small> | 2026-11-09 |  |
-| [Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation](https://arxiv.org/abs/2611.11854v2)<br><small>Bingzhang Wang et al.</small> | 2026-11-09 |  |
-| [Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment](https://arxiv.org/abs/2611.11688v1)<br><small>Amit Jadhav et al.</small> | 2026-11-08 |  |
-| [From Game Generation to Game Playing: Fully Automated Ability Training for Vision-Language-Action Models](https://arxiv.org/abs/2611.11136v1)<br><small>Changran Liu et al.</small> | 2026-11-08 |  |
+| [RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence](https://arxiv.org/abs/2610.40026v2)<br><small>Xin Ma et al.</small> | 2026-10-29 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Joint World Action Models through Differentiable Trajectory Optimization](https://arxiv.org/abs/2611.17626v1)<br><small>Mintae Kim et al.</small> | 2026-11-13 |  |
 | [Bind-WAM: Binding-Uncertainty-Guided Selective Future Imagination in World Action Models](https://arxiv.org/abs/2611.15368v1)<br><small>Chenhao Qiu et al.</small> | 2026-11-11 |  |
 | [From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models](https://arxiv.org/abs/2611.14365v1)<br><small>Guoqiang Liang et al.</small> | 2026-11-10 |  |
 | [LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning](https://arxiv.org/abs/2611.14048v1)<br><small>Xuheng Zhang et al.</small> | 2026-11-10 |  |
@@ -42,13 +29,25 @@ Total papers: 50
 | [pico-WAM: Evaluating Counterfactual Prediction and Planning Error in a Compact World Action Model](https://arxiv.org/abs/2611.01039v1)<br><small>Keivalya Pandya</small> | 2026-10-31 |  |
 | [CausalWAM: Learning the Causes of Actions in World Action Models](https://arxiv.org/abs/2610.42096v1)<br><small>Juntao Cheng et al.</small> | 2026-10-30 |  |
 | [When Does Test-Time Search Help World Action Models? An Empirical Audit of Candidate Selection and Simulator Integrity](https://arxiv.org/abs/2610.41970v2)<br><small>Jun Liu et al.</small> | 2026-10-30 |  |
-| [WorldBridge: Bridging Video and Action for Task Generalization in World Action Models](https://arxiv.org/abs/2610.40748v2)<br><small>Jun Cen et al.</small> | 2026-10-29 |  |
 
 ## Policy
 
 | Paper | Date | Code |
 |-------|------|------|
 | [BAT-WAM: Bridging Action and Touch in World-Action Models for Dexterous Hands](https://arxiv.org/abs/2611.10967v1)<br><small>Dong Fang et al.</small> | 2026-11-07 |  |
+| [Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies](https://arxiv.org/abs/2611.09340v1)<br><small>Guangyuan Wang et al.</small> | 2026-11-06 |  |
+| [Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging](https://arxiv.org/abs/2611.07275v1)<br><small>Yuanchu Liang et al.</small> | 2026-11-05 |  |
+| [Physical Diffusion Policy via MPM-Guided 3D Gaussian Simulation](https://arxiv.org/abs/2611.04493v1)<br><small>Can Wang et al.</small> | 2026-11-03 |  |
+| [Spectrally Routed Diffusion Policy for Multi-Task Robotic Manipulation](https://arxiv.org/abs/2611.04477v1)<br><small>Mingcong Li et al.</small> | 2026-11-03 |  |
+| [Visuo-tactile Diffusion Policy for Robotic Manipulation with Auxiliary Tactile Dynamics Prediction](https://arxiv.org/abs/2611.02677v1)<br><small>Kaihong Ouyang et al.</small> | 2026-11-02 |  |
 | [Gnomon4D: Learning Where and When to Focus for Geometric Motion-Grounded World-Action Modeling](https://arxiv.org/abs/2611.02474v2)<br><small>Lingwei Dang et al.</small> | 2026-11-02 |  |
+| [GAWM: A Compact Latent World-Action Model for Multi-Task Robot Manipulation](https://arxiv.org/abs/2610.37091v1)<br><small>Yang Liu et al.</small> | 2026-10-27 |  |
+| [E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling](https://arxiv.org/abs/2610.36011v1)<br><small>X-Era AI Lab Team et al.</small> | 2026-10-26 |  |
+| [HA-DiPO: Diffusion Policy Optimization for Heterogeneous Cooperative Transport](https://arxiv.org/abs/2610.33584v1)<br><small>Xuebin Li et al.</small> | 2026-10-24 |  |
+| [UniFlowWAM: A Unified World-Action Model with Visual Semantics and 4D Geometry](https://arxiv.org/abs/2610.30991v1)<br><small>Jialin Tian et al.</small> | 2026-10-22 |  |
+| [CFG-Policy: Unified Diffusion Policy Learning Framework via Classifier-free Guidance](https://arxiv.org/abs/2610.14936v1)<br><small>Shutong Ding et al.</small> | 2026-10-10 |  |
+| [Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment](https://arxiv.org/abs/2610.09369v2)<br><small>Xiao Zhang et al.</small> | 2026-10-07 |  |
+| [Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation](https://arxiv.org/abs/2610.03333v1)<br><small>Lik Hang Kenny Wong et al.</small> | 2026-10-02 |  |
+| [ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks](https://arxiv.org/abs/2609.23800v1)<br><small>Chengyi Xing et al.</small> | 2026-09-20 |  |
 
 ---
