@@ -49,6 +49,151 @@
     "auto_category": "Policy"
   },
   {
+    "id": "2611.24836v1",
+    "title": "DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play",
+    "authors": [
+      "Akshay L Chandra",
+      "Iman Nematollahi",
+      "Lingyue Zhao",
+      "Daria Kulikova",
+      "Angela P. Schoellig",
+      "Fabien Despinoy",
+      "Abhinav Valada"
+    ],
+    "summary": "Learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. Humans can demonstrate skills in seconds, but their demonstrations lack the required robot actions. We introduce DiWALI, a framework that learns and improves diffusion policies within a world model trained on human and robot play. DiWALI infers latent actions from consecutive frames using an inverse dynamics model, enabling world model training without action labels, ",
+    "published": "2026-11-18",
+    "published_iso": "2026-11-18T18:03:14+00:00",
+    "url": "https://arxiv.org/abs/2611.24836v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.24836v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2611.09340v1",
+    "title": "Horizon-Coupled Obstacle Guidance for Relative-Action Diffusion Policies",
+    "authors": [
+      "Guangyuan Wang",
+      "Haishan Xia",
+      "Zitao Zhang",
+      "Kejia Chen",
+      "Yuanchen Sun",
+      "Zhenguo Sun",
+      "Donghao Zhang",
+      "Yu Zhang",
+      "Alois Knoll"
+    ],
+    "summary": "Real-world robot deployment requires adapting learned policies to unseen obstacles without collecting new demonstrations or retraining. Existing policy-level guidance often applies obstacle corrections independently at individual horizon steps, which may address local obstacle violations but fail to coordinate the action sequence into a complete, task-directed detour. How obstacle responses should be propagated across the action horizon to coordinate complete, task-directed avoidance motion rema",
+    "published": "2026-11-06",
+    "published_iso": "2026-11-06T11:38:26+00:00",
+    "url": "https://arxiv.org/abs/2611.09340v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09340v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2611.07275v1",
+    "title": "Efficient Diffusion Policy Fine Tuning with Latent Noise Representation Bridging",
+    "authors": [
+      "Yuanchu Liang",
+      "Yue Yang",
+      "An-Chi He",
+      "Hanna Kurniawati"
+    ],
+    "summary": "Pre-trained diffusion and flow policies have emerged as powerful backbones for robotics, yet adapting them to novel data via reinforcement learning (RL) remains computationally expensive, sample inefficient and lacks theoretical guarantees. Prior approaches that fine-tune the initial noise bypass costly backpropagation through time but struggle with the \"noise aliasing\" problem: there does not exista natural link between the noise space value and the action space value. This paper resolves these",
+    "published": "2026-11-05",
+    "published_iso": "2026-11-05T00:49:53+00:00",
+    "url": "https://arxiv.org/abs/2611.07275v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.07275v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2611.04493v1",
+    "title": "Physical Diffusion Policy via MPM-Guided 3D Gaussian Simulation",
+    "authors": [
+      "Can Wang",
+      "Qiyuan Qiao",
+      "Lei Liu",
+      "Ge Yuan",
+      "Xinhui Liu",
+      "Dong Xu"
+    ],
+    "summary": "Learning robust manipulation policies for diverse everyday objects remains challenging because objects with different materials exhibit distinct deformation and contact dynamics. While diffusion policies provide a powerful framework for modeling multimodal manipulation behaviors, they typically lack explicit physical reasoning and may produce averaged actions when facing heterogeneous objects. We present a physics-aware diffusion policy that augments visual imitation learning with object physica",
+    "published": "2026-11-03",
+    "published_iso": "2026-11-03T08:21:49+00:00",
+    "url": "https://arxiv.org/abs/2611.04493v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.04493v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2611.04477v1",
+    "title": "Spectrally Routed Diffusion Policy for Multi-Task Robotic Manipulation",
+    "authors": [
+      "Mingcong Li",
+      "Yihan Zhou",
+      "Jiayu Qu",
+      "Xueyang Guo",
+      "Yilin Mo"
+    ],
+    "summary": "Diffusion-based policies have achieved strong performance on single-task robotic manipulation. However, a single model trained jointly on multiple tasks consistently underperforms the per-task specialists trained on the same demonstrations. We focus on two challenges. First, the convolutional encoders commonly used in diffusion-based policies produce visual conditions that are not discriminative enough. Second, gradients from incompatible action modes update the shared denoiser's dense parameter",
+    "published": "2026-11-03",
+    "published_iso": "2026-11-03T08:09:15+00:00",
+    "url": "https://arxiv.org/abs/2611.04477v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.04477v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2611.02677v1",
+    "title": "Visuo-tactile Diffusion Policy for Robotic Manipulation with Auxiliary Tactile Dynamics Prediction",
+    "authors": [
+      "Kaihong Ouyang",
+      "Zihao Su",
+      "Chengxuan Zheng",
+      "Weiyi Lai",
+      "Dong Zhou"
+    ],
+    "summary": "Long-horizon robotic assembly requires reliable perception and action across grasping, alignment, and insertion. Vision captures global object pose and scene context, where as fingertip touch provides local contact cues that are especially useful as contact states change. We present a visuotactile diffusion policy that combines four-step histories from two camera views and two fingertip tactile images to condition action-sequence generation. A recurrent temporal representation integrates recent ",
+    "published": "2026-11-02",
+    "published_iso": "2026-11-02T07:32:10+00:00",
+    "url": "https://arxiv.org/abs/2611.02677v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.02677v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
     "id": "2610.39451v1",
     "title": "Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning",
     "authors": [
@@ -74,6 +219,31 @@
     "auto_category": "Policy"
   },
   {
+    "id": "2610.33584v1",
+    "title": "HA-DiPO: Diffusion Policy Optimization for Heterogeneous Cooperative Transport",
+    "authors": [
+      "Xuebin Li",
+      "Jinpeng Xiao",
+      "Zong Chen",
+      "Pierluigi Arpenti",
+      "Bruno Siciliano",
+      "Jiebao Sun",
+      "Yiqun Li"
+    ],
+    "summary": "Cooperative transport with heterogeneous legged robots requires coordinating different motion capabilities while supporting an unfixed shared payload. We present HA-DiPO (Heterogeneous-Agent Diffusion Policy Optimization), a hierarchical multi-agent reinforcement learning framework under centralized training with decentralized execution (CTDE). The framework decouples team-level coordination from embodiment-specific motion control: at the high level, a centralized critic uses team-value estimate",
+    "published": "2026-10-24",
+    "published_iso": "2026-10-24T10:24:37+00:00",
+    "url": "https://arxiv.org/abs/2610.33584v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.33584v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
     "id": "2610.28019v1",
     "title": "PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations",
     "authors": [
@@ -89,51 +259,6 @@
     "published_iso": "2026-10-20T11:08:41+00:00",
     "url": "https://arxiv.org/abs/2610.28019v1",
     "pdf_url": "https://arxiv.org/pdf/2610.28019v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2610.27794v1",
-    "title": "Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos",
-    "authors": [
-      "Oliver Hausdörfer",
-      "Felix Minzenmay",
-      "Mani Majd",
-      "Maximilian P. Christof",
-      "Shiyuan Zhang",
-      "Angela P. Schoellig"
-    ],
-    "summary": "Action-free videos are an appealing substitute for costly teleoperated data. Latent action models (LAMs) turn videos into a supervision signal by inferring abstract actions between frames. Existing LAMs observe a single camera view, which resolves 6D robot actions only ambiguously missing out-of-plane movements and potential occlusions. We propose a LAM that ingests synchronized multi-camera views using cross-attention to resolve depth and occlusions before compressing them into latent actions. ",
-    "published": "2026-10-20",
-    "published_iso": "2026-10-20T07:55:43+00:00",
-    "url": "https://arxiv.org/abs/2610.27794v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.27794v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2610.26717v2",
-    "title": "Robot Learning with Vision-Language-Action Models for Agricultural Manipulation",
-    "authors": [
-      "Hamid Hafezi",
-      "Javad Mohammadpour Velni",
-      "Mohammadreza Davoodi"
-    ],
-    "summary": "Robotic manipulation in agricultural environments remains challenging due to variations in plant geometry, occlusion, and camera viewpoints. Pretrained vision-language-action (VLA) and generalist robot policies offer a promising approach to addressing these challenges by learning manipulation behaviors from multimodal observations and language instructions. However, adapting these policies to agricultural tasks requires domain-specific demonstrations, which are costly and time-consuming to colle",
-    "published": "2026-10-19",
-    "published_iso": "2026-10-19T16:49:17+00:00",
-    "url": "https://arxiv.org/abs/2610.26717v2",
-    "pdf_url": "https://arxiv.org/pdf/2610.26717v2",
     "categories": [
       "cs.RO"
     ],
@@ -223,6 +348,31 @@
     "auto_category": "Policy"
   },
   {
+    "id": "2610.14936v1",
+    "title": "CFG-Policy: Unified Diffusion Policy Learning Framework via Classifier-free Guidance",
+    "authors": [
+      "Shutong Ding",
+      "Zhaoyang Liu",
+      "Yimiao Zhou",
+      "Jingya Wang",
+      "Jiayuan Gu",
+      "Ye Shi"
+    ],
+    "summary": "Diffusion policies are increasingly used in robotic control and manipulation, vision-language-action models, and world-model-based agents. Their ability to represent multimodal action distributions offers rich opportunities for exploration in reinforcement learning (RL). However, optimizing diffusion policies with RL can reduce the behavioral diversity and further limit their exploration capability. In RL post-training, directly fine-tuning a pretrained policy may also disrupt its acquired capab",
+    "published": "2026-10-10",
+    "published_iso": "2026-10-10T14:09:24+00:00",
+    "url": "https://arxiv.org/abs/2610.14936v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.14936v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
     "id": "2610.09696v2",
     "title": "RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies",
     "authors": [
@@ -240,6 +390,33 @@
     "pdf_url": "https://arxiv.org/pdf/2610.09696v2",
     "categories": [
       "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2610.09369v2",
+    "title": "Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment",
+    "authors": [
+      "Xiao Zhang",
+      "Yuxin Chen",
+      "Zhixuan Liang",
+      "Guojian Zhan",
+      "Chenran Li",
+      "Chenfeng Xu",
+      "Masayoshi Tomizuka",
+      "Yiheng Li"
+    ],
+    "summary": "When diffusion policies were first introduced, they were expected to recover multi-modal action distributions. However, we find this expectation does not always hold, as diffusion policies often collapse to a single modality even when we guarantee the balance of dataset modalities and exact within-batch symmetry. Our analysis indicates that independent action-noise pairing contributes to this failure by increasing mixing and crossing among diffusion paths, which can produce averaged denoising re",
+    "published": "2026-10-07",
+    "published_iso": "2026-10-07T03:22:26+00:00",
+    "url": "https://arxiv.org/abs/2610.09369v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.09369v2",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
     ],
     "primary_category": "cs.RO",
     "code_url": null,
@@ -299,6 +476,33 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"
+  },
+  {
+    "id": "2610.03333v1",
+    "title": "Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation",
+    "authors": [
+      "Lik Hang Kenny Wong",
+      "Yiyao Ma",
+      "Xiu-Shen Wei",
+      "Zelong Tan",
+      "Zhuheng Song",
+      "Dongsheng Xie",
+      "Kai Chen",
+      "Qi Dou"
+    ],
+    "summary": "Imitation learning for contact-rich manipulation requires high-quality expert data that is expensive to obtain. This makes learning a sample-efficient policy a key issue. To address this, we propose VISTA, a workspace-level equivariant visuotactile diffusion policy for data-efficient contact-rich imitation learning. VISTA projects visual and tactile observations into spherical tokens, injects tactile contact cues into visual spherical directions through permutation-equivariant spherical fusion, ",
+    "published": "2026-10-02",
+    "published_iso": "2026-10-02T14:04:41+00:00",
+    "url": "https://arxiv.org/abs/2610.03333v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.03333v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
   },
   {
     "id": "2610.01856v1",
@@ -451,6 +655,52 @@
     "auto_category": "Policy"
   },
   {
+    "id": "2609.23800v1",
+    "title": "ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks",
+    "authors": [
+      "Chengyi Xing",
+      "Shaoxiong Yao",
+      "Diego Romeres",
+      "Devesh K. Jha"
+    ],
+    "summary": "High-precision connector insertion remains challenging for robotic systems due to tight mechanical tolerances, partial observability during contact, and multimodal uncertainty arising from occlusion and contact ambiguity. Successful insertion requires closed-loop contact guidance that continuously integrates global alignment cues with local contact feedback to produce stable corrective actions under interaction. In this work, we present ContactDP (Contact-Guided Diffusion Policy for Tight Insert",
+    "published": "2026-09-20",
+    "published_iso": "2026-09-20T18:40:48+00:00",
+    "url": "https://arxiv.org/abs/2609.23800v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23800v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2609.21792v1",
+    "title": "AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance",
+    "authors": [
+      "Iana Zhura",
+      "Didar Seyidov",
+      "Dmitrii Plotnikov",
+      "Hajira Amjad",
+      "Miguel Altamirano Cabrera",
+      "Dzmitry Tsetserukou"
+    ],
+    "summary": "Navigating toward human callers is an important capability for rescue robots operating where visual contact is degraded or occluded. We present AcousticDiffusion, a semantically conditioned, audio-guided diffusion policy for human-directed navigation. A frozen pretrained audio recognizer processes 10.24 s windows, with speech gating and distress-aware prioritization converting recognition outputs into source-level navigation roles. Microphone-array direction-of-arrival measurements are recursive",
+    "published": "2026-09-18",
+    "published_iso": "2026-09-18T14:05:48+00:00",
+    "url": "https://arxiv.org/abs/2609.21792v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.21792v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
     "id": "2609.16745v2",
     "title": "The Latent That Never Was: A Forensic Re-run of the CVAE Ablation in Action Chunking Transformers",
     "authors": [
@@ -495,6 +745,147 @@
     "auto_category": "Policy"
   },
   {
+    "id": "2609.15162v2",
+    "title": "LieSpline-DP: Lie-Group B-Spline Diffusion Policy for Smooth Robot Manipulation",
+    "authors": [
+      "Erxuan Xie",
+      "Bang Liu",
+      "Pingyun Nie",
+      "Xingkai Liu",
+      "Zhuang Fu",
+      "Bo Zhang"
+    ],
+    "summary": "Diffusion Policy (DP) is a powerful Learning from Demonstration (LfD) method for robotic manipulation, yet it suffers from discontinuous and non-smooth trajectories. Spline-based action representations promote smooth motion within individual action chunks, but existing spline-based methods neither guarantee cross-chunk $C^2$ continuity nor account for the group structure of $\\mathrm{SE}(3)$. We therefore propose LieSpline-DP, a Lie-group B-spline diffusion policy that generates end-effector traj",
+    "published": "2026-09-14",
+    "published_iso": "2026-09-14T07:45:55+00:00",
+    "url": "https://arxiv.org/abs/2609.15162v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.15162v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2609.12634v1",
+    "title": "Online Material Estimation for Conditioned Diffusion Policy in Shaping Deformable Linear Objects",
+    "authors": [
+      "Ryunosuke Yamada",
+      "Tomohiro Motoda",
+      "Yukiyasu Domae",
+      "Tokuo Tsuji"
+    ],
+    "summary": "Shape control of deformable linear objects (DLOs) is challenging for imitation learning because deformation behavior varies with material properties such as stiffness and elasticity, so a single policy must generate different action sequences for different objects even when the goal shape is identical. We propose a diffusion policy conditioned on material labels that are estimated online during manipulation. A recurrent estimation network predicts the material label of the grasped object from th",
+    "published": "2026-09-11",
+    "published_iso": "2026-09-11T09:33:19+00:00",
+    "url": "https://arxiv.org/abs/2609.12634v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.12634v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2609.12245v2",
+    "title": "DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization",
+    "authors": [
+      "Arjun Sohal",
+      "Yuchi Zhao",
+      "Miroslav Bogdanovic",
+      "Alan Aspuru-Guzik"
+    ],
+    "summary": "Diffusion-based robot policies have become widely used in robotic manipulation, where they are typically trained with behavior cloning. However, policies trained purely from demonstrations are limited by the quality and coverage of the available data. Reinforcement learning can further improve the performance of these pretrained policies through interaction. A common approach is to use policy-gradient methods that formulate diffusion-policy fine-tuning as an outer environment MDP together with a",
+    "published": "2026-09-10",
+    "published_iso": "2026-09-10T22:02:28+00:00",
+    "url": "https://arxiv.org/abs/2609.12245v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.12245v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2609.10918v1",
+    "title": "ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations",
+    "authors": [
+      "Jiawen Wang",
+      "Kevin Yao",
+      "Khalid Jawed"
+    ],
+    "summary": "Imitation learning has achieved impressive results in robotic manipulation, yet most existing approaches assume clean backgrounds and lack explicit mechanisms for obstacle-aware motion generation. Extending such policies to cluttered, real-world scenes with unstructured obstacles remains a key generalization challenge. We present ObstaDiff, a decomposed diffusion-policy framework with a lightweight obstacle-aware visual encoder. ObstaDiff extracts a structured target-obstacle-background represen",
+    "published": "2026-09-10",
+    "published_iso": "2026-09-10T00:06:39+00:00",
+    "url": "https://arxiv.org/abs/2609.10918v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.10918v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2609.04759v1",
+    "title": "Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing",
+    "authors": [
+      "Haoxiang Sun",
+      "Fangyuan Wang",
+      "Songhao Huang",
+      "Justina Y. W. Liu",
+      "Jihong Zhu",
+      "Peng Zhou",
+      "David Navarro-Alarcon"
+    ],
+    "summary": "Robotic dressing assistance is a promising solution for supporting older adults with physical impairments in daily living. However, dressing under human motion remains challenging, as complex garment--human contact and occlusions make it difficult to generate actions aligned with arm movements. In this letter, we propose a visuomotor policy that learns dressing skills from static expert demonstrations and generalizes to dynamic user-motion scenarios. A diffusion policy tailored to garment--human",
+    "published": "2026-09-04",
+    "published_iso": "2026-09-04T05:42:04+00:00",
+    "url": "https://arxiv.org/abs/2609.04759v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.04759v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2609.03984v1",
+    "title": "MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains",
+    "authors": [
+      "Kangmai Hu",
+      "Yueqi Zhang",
+      "Peng Zhai",
+      "Xiaoyi Wei",
+      "Jiabin Hu",
+      "Zhixiang Liu",
+      "Quancheng Qian",
+      "Lihua Zhang"
+    ],
+    "summary": "Quadruped robots have demonstrated impressive agility in parkour locomotion across complex terrains. However, most systems still rely on human intervention for high-level planning, and autonomous parkour navigation remains underexplored. The key challenges include fine-grained velocity regulation, long-horizon anticipatory behaviors, and tight coupling between perception and embodied execution. To address these challenges, we propose a Multimodal Diffusion Policy (MulDP) that integrates visual p",
+    "published": "2026-09-03",
+    "published_iso": "2026-09-03T15:19:17+00:00",
+    "url": "https://arxiv.org/abs/2609.03984v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03984v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
     "id": "2608.25284v2",
     "title": "Generative Action-Chunk Sampling for Adaptive Stiffness Control in Physical Human-Robot Collaboration",
     "authors": [
@@ -512,6 +903,27 @@
       "cs.RO",
       "cs.AI",
       "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2608.22100v1",
+    "title": "Contact-Rich Robotic Manipulation in Construction via Zero-Shot Learning: A Diffusion Policy-Guided Adaptive Control",
+    "authors": [
+      "Roman Ibrahimov",
+      "Salma Mozaffari",
+      "Arash Adel"
+    ],
+    "summary": "Construction robotics and automation offer promising means of improving productivity, alleviating workforce shortages, and reducing workers' exposure to physically demanding tasks. However, reliable contact-rich robotic assembly remains challenging under tight tolerances, fabrication inaccuracies, and uncertain contact dynamics. To address this challenge, we present a framework coupling diffusion policies trained on simulation-generated pose and force/torque data with an L1-inspired adaptive con",
+    "published": "2026-08-22",
+    "published_iso": "2026-08-22T20:41:23+00:00",
+    "url": "https://arxiv.org/abs/2608.22100v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.22100v1",
+    "categories": [
+      "cs.RO"
     ],
     "primary_category": "cs.RO",
     "code_url": null,
@@ -558,6 +970,29 @@
       "cs.CV",
       "cs.HC",
       "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2608.06210v1",
+    "title": "VIDP: Variable Impedance Diffusion Policy for Compliant Robot Manipulation from Diverse Demonstrations",
+    "authors": [
+      "Hisham Khalil",
+      "Neil Fernandes",
+      "Thomas M. Kwok",
+      "Hsiu-Chin Lin",
+      "Yue Hu"
+    ],
+    "summary": "Contact-rich manipulation requires precise tracking and mechanical compliance, where variable impedance control can improve robustness in task success, whereas static compliance cannot adapt to varying contact constraints. Variable impedance skills can be learned from demonstrations, avoiding complex modeling, but compliance is a hidden variable in force-agnostic kinematic data. While existing methods infer compliance from trajectory variations, these variations may reflect geometric adaptation ",
+    "published": "2026-08-06",
+    "published_iso": "2026-08-06T16:03:00+00:00",
+    "url": "https://arxiv.org/abs/2608.06210v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06210v1",
+    "categories": [
+      "cs.RO"
     ],
     "primary_category": "cs.RO",
     "code_url": null,
@@ -627,6 +1062,57 @@
     "published_iso": "2026-07-31T10:59:14+00:00",
     "url": "https://arxiv.org/abs/2607.29285v3",
     "pdf_url": "https://arxiv.org/pdf/2607.29285v3",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2607.28596v1",
+    "title": "FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation",
+    "authors": [
+      "Lifeng Zhuo",
+      "Wendi Chen",
+      "Han Xue",
+      "Shirun Tang",
+      "Jun Lv",
+      "Cewu Lu",
+      "Chuan Wen"
+    ],
+    "summary": "In contact-rich manipulation, action multimodality and reactivity dominate different stages of a single episode. Before contact, multiple trajectories might be equally valid, making it important to preserve diverse action modes. After contact, geometric constraints and force limits narrow the solution space, while successful execution demands rapid responses to force feedback. However, standard diffusion policies use a fixed inference frequency and sampling steps throughout the episode, forcing ",
+    "published": "2026-07-30",
+    "published_iso": "2026-07-30T17:47:49+00:00",
+    "url": "https://arxiv.org/abs/2607.28596v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28596v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2607.28560v2",
+    "title": "X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching",
+    "authors": [
+      "Tianyu Yang",
+      "Yiming Zeng",
+      "Wenzhe Cai",
+      "Yuqiang Yang",
+      "Jiaqi Peng",
+      "Hui Cheng",
+      "Jiangmiao Pang",
+      "Tai Wang"
+    ],
+    "summary": "Pretraining navigation diffusion policies rely on large-scale expert demonstrations. These data are typically generated by a fully-informed oracle planner suited to a single nominal robot. This limits the policy's generalization to diverse embodiments and challenging scenarios (e.g., escaping dead ends or detouring long obstacles) that demand diverse local reactive behaviors with only onboard local observations. Post-training the policy with reinforcement learning (RL) offers a principled remedy",
+    "published": "2026-07-30",
+    "published_iso": "2026-07-30T17:26:12+00:00",
+    "url": "https://arxiv.org/abs/2607.28560v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.28560v2",
     "categories": [
       "cs.RO"
     ],
@@ -729,351 +1215,5 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"
-  },
-  {
-    "id": "2606.22397v1",
-    "title": "Do Rigid-Body Simulators Dream of Soft Robots? Learning Contact-Rich Manipulation for Tendon-Driven Continuum Robots",
-    "authors": [
-      "Chengnan Shentu",
-      "Nicholas Baldassini",
-      "Tongjia Zheng",
-      "Priyanka Rao",
-      "Jessica Burgner-Kahrs"
-    ],
-    "summary": "Learning contact-rich, whole-body manipulation for soft continuum robots is held back by the lack of simulation infrastructure that has accelerated rigid-robot manipulation. Existing soft robot simulators are physically grounded but lack the contact handling, actuation support, or learning integration needed for contact-rich manipulation; rigid-body approximations offer these capabilities but sacrifice physical grounding. We bridge this gap for tendon-driven continuum robots (TDCRs) by deriving ",
-    "published": "2026-06-21",
-    "published_iso": "2026-06-21T09:02:53+00:00",
-    "url": "https://arxiv.org/abs/2606.22397v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.22397v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2606.18589v1",
-    "title": "DREAM-Chunk: Reactive Action Chunking with Latent World Model",
-    "authors": [
-      "Wenxi Chen",
-      "Kaidi Zhang",
-      "Chi Lin",
-      "Zhiyuan Zhang",
-      "Yu She",
-      "Yuejiang Liu",
-      "Raymond A. Yeh",
-      "Shaoshuai Mou",
-      "Yan Gu"
-    ],
-    "summary": "Action chunking has become a common interface for vision-language-action (VLA) models, enabling low-frequency policy inference to drive high-frequency robot execution. However, once an action chunk is committed, its open-loop execution can be brittle under stochastic dynamics, hardware execution errors, and partial observability. We propose DREAM-Chunk, a test-time scaling method that augments chunking-based policies with a lightweight latent world model, without requiring additional policy fine",
-    "published": "2026-06-17",
-    "published_iso": "2026-06-17T01:28:07+00:00",
-    "url": "https://arxiv.org/abs/2606.18589v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.18589v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2606.16690v1",
-    "title": "PATCH: Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulation",
-    "authors": [
-      "Yanan Zhou",
-      "Ranpeng Qiu",
-      "Yincong Chen",
-      "Jiajie Cui",
-      "Weiming Zhi"
-    ],
-    "summary": "Learning-based manipulation policies have made substantial progress in real-world robot manipulation, particularly for short-horizon action generation. However, deployment in open workspaces remains fragile under unexpected local scene dynamics, such as moving objects, transient occlusions, or disturbances near the intended motion. Existing runtime monitors often rely on global observation anomalies, policy uncertainty, or frame-level visual changes, and struggle to distinguish task-relevant exe",
-    "published": "2026-06-15",
-    "published_iso": "2026-06-15T13:24:41+00:00",
-    "url": "https://arxiv.org/abs/2606.16690v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.16690v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2606.14409v2",
-    "title": "Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack",
-    "authors": [
-      "He Zhang",
-      "Lingzhu Xiang",
-      "Haitao Lin",
-      "Zeyu Huang",
-      "Minghui Wang",
-      "Dingyan Zhong",
-      "Yubo Dong",
-      "Yihao Wu",
-      "Yongming Rao",
-      "Dongsheng Zhang",
-      "Wanjia He",
-      "Ling Chen",
-      "Kai Huang",
-      "Jiahao Chen",
-      "Sichang Su",
-      "Xumin Yu",
-      "Ziyi Wang",
-      "Chengwei Zhu",
-      "Xiao Teng",
-      "Yuchun Guo",
-      "Yufeng Zhang",
-      "Yuandong Liu",
-      "Rui Wang",
-      "Zisheng Lu",
-      "Han Hu",
-      "Zhengyou Zhang"
-    ],
-    "summary": "In this report, we present Hy-Embodied-0.5-VLA, abbreviated as HyVLA-0.5, an end-to-end system that spans the full robot learning stack: data collection, model design, continued pre-training and supervised fine-tuning, RL post-training, and real-world deployment. Each component serves a distinct role in this stack.",
-    "published": "2026-06-12",
-    "published_iso": "2026-06-12T12:45:18+00:00",
-    "url": "https://arxiv.org/abs/2606.14409v2",
-    "pdf_url": "https://arxiv.org/pdf/2606.14409v2",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2605.09789v1",
-    "title": "Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching",
-    "authors": [
-      "Kejia Ren",
-      "Gaotian Wang",
-      "Andrew S. Morgan",
-      "Kaiyu Hang"
-    ],
-    "summary": "Dexterous manipulation is physics-intensive and highly sensitive to modeling errors and perception noise, making sim-to-real transfer prohibitively challenging. Domain randomization (DR) is commonly used to improve the robustness of learned policies for such tasks, but conventional DR randomizes one instance per episode, offering very limited exposure to the variability of real-world dynamics. To this end, we propose Domain-Randomized Instance Set (DRIS), which represents and propagates a set of",
-    "published": "2026-05-10",
-    "published_iso": "2026-05-10T22:20:20+00:00",
-    "url": "https://arxiv.org/abs/2605.09789v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.09789v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2602.14434v1",
-    "title": "A Soft Wrist with Anisotropic and Selectable Stiffness for Robust Robot Learning in Contact-rich Manipulation",
-    "authors": [
-      "Steven Oh",
-      "Tomoya Takahashi",
-      "Cristian C. Beltran-Hernandez",
-      "Yuki Kuroda",
-      "Masashi Hamaya"
-    ],
-    "summary": "Contact-rich manipulation tasks in unstructured environments pose significant robustness challenges for robot learning, where unexpected collisions can cause damage and hinder policy acquisition. Existing soft end-effectors face fundamental limitations: they either provide a limited deformation range, lack directional stiffness control, or require complex actuation systems that compromise practicality. This study introduces CLAW (Compliant Leaf-spring Anisotropic soft Wrist), a novel soft wrist ",
-    "published": "2026-02-16",
-    "published_iso": "2026-02-16T03:45:04+00:00",
-    "url": "https://arxiv.org/abs/2602.14434v1",
-    "pdf_url": "https://arxiv.org/pdf/2602.14434v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2508.20840v3",
-    "title": "Learning Primitive Embodied World Models: Towards Scalable Robotic Learning",
-    "authors": [
-      "Qiao Sun",
-      "Liujia Yang",
-      "Wei Tang",
-      "Wei Huang",
-      "Kaixin Xu",
-      "Yongchao Chen",
-      "Mingyu Liu",
-      "Jiange Yang",
-      "Haoyi Zhu",
-      "Yating Wang",
-      "Tong He",
-      "Yilun Chen",
-      "Xili Dai",
-      "Nanyang Ye",
-      "Qinying Gu"
-    ],
-    "summary": "While video-generation-based embodied world models have gained increasing attention, their reliance on large-scale embodied interaction data remains a key bottleneck. The scarcity, difficulty of collection, and high dimensionality of embodied data fundamentally limit the alignment granularity between language and actions and exacerbate the challenge of long-horizon video generation--hindering generative models from achieving a \"GPT moment\" in the embodied domain. There is a naive observation: th",
-    "published": "2025-08-28",
-    "published_iso": "2025-08-28T14:31:48+00:00",
-    "url": "https://arxiv.org/abs/2508.20840v3",
-    "pdf_url": "https://arxiv.org/pdf/2508.20840v3",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.MM"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2503.08622v1",
-    "title": "Cross-Embodiment Robotic Manipulation Synthesis via Guided Demonstrations through CycleVAE and Human Behavior Transformer",
-    "authors": [
-      "Apan Dastider",
-      "Hao Fang",
-      "Mingjie Lin"
-    ],
-    "summary": "Cross-embodiment robotic manipulation synthesis for complicated tasks is challenging, partially due to the scarcity of paired cross-embodiment datasets and the impediment of designing intricate controllers. Inspired by robotic learning via guided human expert demonstration, we here propose a novel cross-embodiment robotic manipulation algorithm via CycleVAE and human behavior transformer. First, we utilize unsupervised CycleVAE together with a bidirectional subspace alignment algorithm to align ",
-    "published": "2025-03-11",
-    "published_iso": "2025-03-11T17:02:08+00:00",
-    "url": "https://arxiv.org/abs/2503.08622v1",
-    "pdf_url": "https://arxiv.org/pdf/2503.08622v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2503.05231v2",
-    "title": "Kaiwu: A Multimodal Manipulation Dataset and Framework for Robot Learning and Human-Robot Interaction",
-    "authors": [
-      "Shuo Jiang",
-      "Haonan Li",
-      "Ruochen Ren",
-      "Yanmin Zhou",
-      "Zhipeng Wang",
-      "Bin He"
-    ],
-    "summary": "Cutting-edge robot learning techniques including foundation models and imitation learning from humans all pose huge demands on large-scale and high-quality datasets which constitute one of the bottleneck in the general intelligent robot fields. This paper presents the Kaiwu multimodal dataset to address the missing real-world synchronized multimodal data problems in the sophisticated assembling scenario,especially with dynamics information and its fine-grained labelling. The dataset first provid",
-    "published": "2025-03-07",
-    "published_iso": "2025-03-07T08:28:24+00:00",
-    "url": "https://arxiv.org/abs/2503.05231v2",
-    "pdf_url": "https://arxiv.org/pdf/2503.05231v2",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2402.14194v2",
-    "title": "BeTAIL: Behavior Transformer Adversarial Imitation Learning from Human Racing Gameplay",
-    "authors": [
-      "Catherine Weaver",
-      "Chen Tang",
-      "Ce Hao",
-      "Kenta Kawamoto",
-      "Masayoshi Tomizuka",
-      "Wei Zhan"
-    ],
-    "summary": "Imitation learning learns a policy from demonstrations without requiring hand-designed reward functions. In many robotic tasks, such as autonomous racing, imitated policies must model complex environment dynamics and human decision-making. Sequence modeling is highly effective in capturing intricate patterns of motion sequences but struggles to adapt to new environments or distribution shifts that are common in real-world robotics tasks. In contrast, Adversarial Imitation Learning (AIL) can miti",
-    "published": "2024-02-22",
-    "published_iso": "2024-02-22T00:38:43+00:00",
-    "url": "https://arxiv.org/abs/2402.14194v2",
-    "pdf_url": "https://arxiv.org/pdf/2402.14194v2",
-    "categories": [
-      "cs.LG",
-      "cs.RO"
-    ],
-    "primary_category": "cs.LG",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2301.00452v2",
-    "title": "Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning",
-    "authors": [
-      "Yonghao Long",
-      "Wang Wei",
-      "Tao Huang",
-      "Yuehao Wang",
-      "Qi Dou"
-    ],
-    "summary": "Surgical robot automation has attracted increasing research interest over the past decade, expecting its potential to benefit surgeons, nurses and patients. Recently, the learning paradigm of embodied intelligence has demonstrated promising ability to learn good control policies for various complex tasks, where embodied AI simulators play an essential role to facilitate relevant research. However, existing open-sourced simulators for surgical robot are still not sufficiently supporting human int",
-    "published": "2023-01-01",
-    "published_iso": "2023-01-01T18:05:25+00:00",
-    "url": "https://arxiv.org/abs/2301.00452v2",
-    "pdf_url": "https://arxiv.org/pdf/2301.00452v2",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.CV",
-      "cs.LG"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2206.11251v2",
-    "title": "Behavior Transformers: Cloning $k$ modes with one stone",
-    "authors": [
-      "Nur Muhammad Mahi Shafiullah",
-      "Zichen Jeff Cui",
-      "Ariuntuya Altanzaya",
-      "Lerrel Pinto"
-    ],
-    "summary": "While behavior learning has made impressive progress in recent times, it lags behind computer vision and natural language processing due to its inability to leverage large, human-generated datasets. Human behaviors have wide variance, multiple modes, and human demonstrations typically do not come with reward labels. These properties limit the applicability of current methods in Offline RL and Behavioral Cloning to learn from large, pre-collected datasets. In this work, we present Behavior Transf",
-    "published": "2022-06-22",
-    "published_iso": "2022-06-22T17:57:08+00:00",
-    "url": "https://arxiv.org/abs/2206.11251v2",
-    "pdf_url": "https://arxiv.org/pdf/2206.11251v2",
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.CV",
-      "cs.RO"
-    ],
-    "primary_category": "cs.LG",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2204.12844v2",
-    "title": "Accelerating Robot Learning of Contact-Rich Manipulations: A Curriculum Learning Study",
-    "authors": [
-      "Cristian C. Beltran-Hernandez",
-      "Damien Petit",
-      "Ixchel G. Ramirez-Alpizar",
-      "Kensuke Harada"
-    ],
-    "summary": "The Reinforcement Learning (RL) paradigm has been an essential tool for automating robotic tasks. Despite the advances in RL, it is still not widely adopted in the industry due to the need for an expensive large amount of robot interaction with its environment. Curriculum Learning (CL) has been proposed to expedite learning. However, most research works have been only evaluated in simulated environments, from video games to robotic toy tasks. This paper presents a study for accelerating robot le",
-    "published": "2022-04-27",
-    "published_iso": "2022-04-27T11:08:39+00:00",
-    "url": "https://arxiv.org/abs/2204.12844v2",
-    "pdf_url": "https://arxiv.org/pdf/2204.12844v2",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.LG"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
   }
 ]
